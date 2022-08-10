@@ -1,6 +1,8 @@
 import { useRoutes } from "react-router-dom";
 import "./App.css";
 
+import Home from './screens/Home';
+
 function App() {
   let element = useRoutes([
     { path: "/", element: <Home /> },
