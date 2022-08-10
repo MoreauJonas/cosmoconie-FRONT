@@ -1,0 +1,37 @@
+// Components //////////
+// @import "./components/Slider";
+
+// Screens //////////
+// @import "./screens/Admin";
+
+@font-face {
+  font-family: "rmegg___";
+  src: url("../../fonts/rmegg___.ttf");
+}
+
+$white-color: #fef9ef;
+$jaune-color: #ffcb77; //bouton
+$blue-color: rgb(68, 144, 161);
+$rouge-color: #fe6d73; //compteur
+
+body {
+  background-color: $blue-color;
+  color: $white-color;
+  margin: 0;
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+h6 {
+  font-family: rmegg___;
+  font-size: 5rem;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
