@@ -8,7 +8,6 @@ import RemoveIcon from "@material-ui/icons/Remove";
 
 export default function Cart() {
   const [itemCount, setItemCount] = React.useState(0);
-
   return (
     <div style={{ display: "block", padding: 30 }}>
       <div>
