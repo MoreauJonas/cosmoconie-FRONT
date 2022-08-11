@@ -17,8 +17,8 @@
     left:10%;
     right: 10%;
     margin-block: 1.5rem;
-    opacity: 0;
-    transform: translateX(-50%);
+    opacity: 0.5;
+    transform: translateX(100%);
     transition: all 500ms ease-in;
 }
 
@@ -38,7 +38,7 @@
     animation: slide-up 1s ease-in-out 250ms;
     animation-fill-mode: forwards;
  visibility: hidden; 
-} */
+} 
 
 /* @keyframes slide-up {
     0% {

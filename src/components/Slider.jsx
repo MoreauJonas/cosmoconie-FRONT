@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
-import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai'
+import { Link } from 'react-router-dom'
 import { sliderData } from './SliderData'
 
 const Slider = () => {
@@ -9,15 +9,15 @@ const Slider = () => {
 
   const autoScroll = true
   let slideInterval
-  let intervalTime = 7000
+  let intervalTime = 5000
 
   const nextSlide = () => {
     setCurrenteSlide(currentSlide === slideLength - 1 ? 0 : currentSlide + 1)
   }
 
-  const prevSlide = () => {
-    setCurrenteSlide(currentSlide === 0 ? slideLength - 1 : currentSlide - 1)
-  }
+  // const prevSlide = () => {
+  //   setCurrenteSlide(currentSlide === 0 ? slideLength - 1 : currentSlide - 1)
+  // }
 
   function autoSlide() {
     slideInterval = setInterval(nextSlide, intervalTime)
@@ -36,8 +36,8 @@ const Slider = () => {
 
   return (
     <div className='slider'>
-      <AiOutlineLeft className='arrow-slider prev' onClick={prevSlide} />
-      <AiOutlineRight className='arrow-slider next' onClick={nextSlide} />
+      {/* <AiOutlineLeft className='arrow-slider prev' onClick={prevSlide} />
+      <AiOutlineRight className='arrow-slider next' onClick={nextSlide} /> */}
 
       {sliderData.map((slide, index) => {
         return (
@@ -49,10 +49,9 @@ const Slider = () => {
           >
             {index === currentSlide && (
               <div>
-                <a href='http://localhost:3000/'>
-                  {console.log(slide.image)}
+                  <Link to={slide.link}>
                   <img className='img-slider' src={require(`../assets/images/${slide.image}`)} alt={slide.heading} />
-                </a>
+                  </Link>
                 <div className='content-slider'>
                   <h2>{slide.heading}</h2>
                   <p>{slide.desc}</p>
