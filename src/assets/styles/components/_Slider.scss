@@ -1,0 +1,183 @@
+.slider-main {
+    display: flex;
+    justify-content: center;
+    
+}
+.slider {
+    margin-block: 1rem;
+    margin-inline: 1rem;
+    width: 90vw;
+    height: 35vh;
+    position: relative;
+    overflow: hidden;
+}
+.slide-slider {
+    position: absolute;
+    top:15%;
+    left:10%;
+    right: 10%;
+    margin-block: 1.5rem;
+    opacity: 0;
+    transform: translateX(-50%);
+    transition: all 500ms ease-in;
+}
+
+.slide-slider .img-slider{
+    width: 100%;
+    height: 100%;
+}
+
+/* .content-slider {
+    position: absolute;
+    top: 10rem;
+    left: 5rem;
+    opacity:0;
+    width: 40%;
+    padding: 2rem;
+    background: rgba(0, 0, 0, 0.378);
+    animation: slide-up 1s ease-in-out 250ms;
+    animation-fill-mode: forwards;
+ visibility: hidden; 
+} */
+
+/* @keyframes slide-up {
+    0% {
+        visibility: visible;
+        top: 5rem;
+
+    }
+    100% {
+        visibility: visible;
+        top: 15rem;
+
+        
+    }
+} */
+
+.current {
+    opacity: 1;
+    transform: translateX(0);
+
+}
+.current .content-slider {
+    opacity: 1;
+}
+
+.arrow-slider {
+    /* border: 2px solid white; */
+    background: transparent;
+    color: white;
+    /* border-radius: 50%; */
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+    position: absolute;
+    z-index: 999;
+}
+.arrow-slider:hover {
+    background: transparent;
+    color: grey;
+
+}
+
+.next {
+    top: 45%;
+    right:1rem
+}
+.prev {
+    top: 45%;
+    left:1rem
+}
+
+/* hr {
+    height: 2px;
+    background: white;
+} */
+
+
+/* @media screen and (max-width: 600px) {
+    .content-slider {
+        width: 20%;
+    }
+
+}
+.content-slider > * {
+    color: rgb(98, 178, 248);
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 600px) {
+    .slide-slider img{
+        width: 100%;
+    }
+    
+} */
+
+@media screen and (min-width: 640px) { 
+    .slider {
+        height: 40vh;
+
+    }
+    .slide-slider {
+        top:10%;
+        left:10%;
+        right: 10%;
+    }
+    .arrow-slider {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    
+ }
+
+
+@media screen and (min-width: 768px) { 
+    .slider {
+        height: 50vh;
+    }
+    .arrow-slider {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+ }
+
+     
+@media screen and (min-width: 1024px) { 
+    .slider {
+        height: 60vh;
+
+    }
+    .slide-slider {
+        top:7%;
+    }
+    .arrow-slider {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+ }
+
+      
+@media screen and (min-width: 1280px) { 
+    .slider {
+        height: 70vh;
+
+    }
+    .slide-slider {
+        top:5%;
+    }
+    .arrow-slider {
+        width: 4.5rem;
+        height: 4.5rem;
+    }
+ }
+
+      
+@media screen and (min-width: 1536px) { 
+    .slider {
+        height: 80vh;
+    }
+    .arrow-slider {
+        width: 5rem;
+        height: 5rem;
+    }
+ }
