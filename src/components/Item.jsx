@@ -16,7 +16,7 @@ function Item({ nom, image, description, prix, tag }) {
       <div className="ItemDescription">
         <p>{description}</p>
         <p>Prix: {prix}</p>
-        <p>Type d'objet: {tag}</p>
+        {/* <p>Type d'objet: {tag}</p> */}
       </div>
     </div>
   );
