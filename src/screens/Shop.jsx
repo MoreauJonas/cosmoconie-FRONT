@@ -13,10 +13,10 @@ function Shop() {
   const [filterGreen, setFilterGreen] = useState(false);
 
   const [postsPerPage] = useState(6);
-  const [offset, setOffset] = useState(1);
+  const [offset, setOffset] = useState([1]);
   const [posts, setAllPosts] = useState([]);
-  const [pageCount, setPageCount] = useState(1);
-  const [object, setObject] = useState(Items);
+  const [pageCount, setPageCount] = useState();
+  const [object, setObject] = useState();
 
   const checkCreteria = (e) => {
     e.preventDefault();
@@ -62,7 +62,10 @@ function Shop() {
     );
   };
   const getAllPosts = async () => {
-    const slice = Items.slice(offset - 1, offset - 1 + postsPerPage);
+    const slice = items.slice(
+      (offset - 1) * postsPerPage,
+      postsPerPage * offset
+    );
     console.log(slice);
     // For displaying Data
     const postData = getPostData(slice);
@@ -70,7 +73,7 @@ function Shop() {
     // Using Hooks to set value
     setAllPosts(postData);
     setObject(slice);
-    setPageCount(Math.ceil(Items.length / postsPerPage));
+    setPageCount(Math.ceil(items.length / postsPerPage));
   };
 
   const handlePageClick = (event) => {
