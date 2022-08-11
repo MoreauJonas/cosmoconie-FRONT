@@ -2,6 +2,9 @@ import { useState, useEffect } from "react";
 import Item from "../components/Item";
 import Items from "../assets/data/Items.json";
 import ReactPaginate from "react-paginate";
+import Cart from "../components/Cart";
+import Badge from "@material-ui/core/Badge";
+import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 
 function Shop() {
   const [items, setItems] = useState(Items);
@@ -29,7 +32,6 @@ function Shop() {
       : result.filter((filt) => !filt.tag.includes("quotidien"));
 
     setItems(result);
-
     setAllPosts(getPostData(result));
   };
   const getPostData = (arr) => {
@@ -52,6 +54,7 @@ function Shop() {
                 <p>{item.description}</p>
                 <p>Prix: {item.prix}</p>
                 {/* <p>Type d'objet: {item.tag}</p> */}
+                <Cart />
               </div>
             </div>
           </div>
@@ -83,34 +86,45 @@ function Shop() {
       <div className="GrosseDiv">
         <div className="ShopFilter">
           <h3 className="ShopTitle">Le marché sur des oeufs</h3>
-
+          
+          <a href="/shop" className=""><ShoppingCartIcon />Panier</a>
+        
           <div className="bandeau">
-            <legend>Filtres des objets:</legend>
+            <legend className="filter-label">Filtres des objets:</legend>
 
             <input
               id="tags"
+              className="filter-box"
               type="checkbox"
               value="survivance"
               name="Survivance"
               onChange={(e) => setFilterRed(e.target.checked)}
             />
-            <label htmlFor="tagssurvivance">Survivance</label>
+            <label className="filter-label" htmlFor="tagssurvivance">
+              Survivance
+            </label>
 
             <input
               type="checkbox"
+              className="filter-box"
               value="quotidien"
               name="Quotidien"
               onChange={(e) => setFilterBlue(e.target.checked)}
             />
-            <label htmlFor="tagsquotidien">Culte</label>
+            <label className="filter-label" htmlFor="tagsquotidien">
+              Culte
+            </label>
 
             <input
               type="checkbox"
+              className="filter-box"
               value="culte"
               name="Culte"
               onChange={(e) => setFilterGreen(e.target.checked)}
             />
-            <label htmlFor="tagsculte">Quotidien</label>
+            <label className="filter-label" htmlFor="tagsculte">
+              Quotidien
+            </label>
             <button
               className="ShopButton"
               type="submit"

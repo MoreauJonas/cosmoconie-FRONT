@@ -5,7 +5,8 @@ $rouge-color: #fe6d73;
   background-color: white;
   color: #272727;
   max-width: 41vw;
-  height: 45vh;
+  width: 25vw;
+  height: 52vh;
   padding: 20px;
   margin: 10px;
   border: 0px;
@@ -13,12 +14,6 @@ $rouge-color: #fe6d73;
   border-style: solid;
   transition: 200ms;
 
-  img {
-    width: 40vw;
-    height: 27vh;
-    margin-bottom: 30px;
-    object-fit: contain;
-  }
   .card:hover {
     transition: 200ms;
     border: 3px;
@@ -33,10 +28,10 @@ $rouge-color: #fe6d73;
   }
 
   .profile {
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 10.5rem;
+    height: 1.7000000000000002rem;
     background-color: tomato;
-    border-radius: 50%;
+    border-radius: 50px;
     margin: 10px;
     font-size: 20pt;
     text-align: center;
@@ -69,6 +64,10 @@ $rouge-color: #fe6d73;
     border-radius: 10px;
     margin-bottom: 10px;
     margin-top: 10px;
+    width: 25vw;
+    margin-bottom: 30px;
+    object-fit: contain;
+    height: 27vh;
   }
   .card-like-icon {
     height: 25px;
@@ -93,7 +92,7 @@ $rouge-color: #fe6d73;
   background-color: white;
   color: #272727;
   max-width: 41vw;
-  height: 45vh;
+  height: 60vh;
   padding: 20px;
   margin: 10px;
   border: 0px;
@@ -101,12 +100,6 @@ $rouge-color: #fe6d73;
   border-style: solid;
   transition: 200ms;
 
-  img {
-    width: 40vw;
-    height: 27vh;
-    margin-bottom: 30px;
-    object-fit: contain;
-  }
   .card:hover {
     transition: 200ms;
     border: 3px;
@@ -121,10 +114,10 @@ $rouge-color: #fe6d73;
   }
 
   .profile {
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 12vw;
+    height: 5vh;
     background-color: tomato;
-    border-radius: 50%;
+    border-radius: 50px;
     margin: 10px;
     font-size: 20pt;
     text-align: center;
@@ -143,7 +136,7 @@ $rouge-color: #fe6d73;
 
   .card-title {
     flex: 0.5;
-    font-size: large;
+    font-size: x-large;
     margin-bottom: 0;
     margin-top: 0;
   }
@@ -157,13 +150,17 @@ $rouge-color: #fe6d73;
     border-radius: 10px;
     margin-bottom: 10px;
     margin-top: 10px;
+    height: 27vh;
+    margin-bottom: 30px;
+    object-fit: contain;
+    width: 40vw;
   }
   .card-like-icon {
     height: 25px;
   }
 
   .card-text {
-    font-size: x-large !important;
+    font-size: 0.9em !important;
     max-width: 40vw;
     display: flex;
   }
