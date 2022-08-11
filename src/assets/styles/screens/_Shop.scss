@@ -1,6 +1,12 @@
+$jaune-color: #ffcb77; //bouton
+$blue-color: rgb(68, 144, 161);
+$rouge-color: #fe6d73; //compteur
+$white-color: #fef9ef;
+
 .GrosseDiv {
   display: flex;
   height: auto;
+  padding-bottom: 100px;
 }
 .bandeau {
   margin-top: 2em;
@@ -13,22 +19,35 @@
   height: 3em;
   width: 80%;
   margin-left: 2.5em;
-  box-shadow: 2px 2px 2px 2px black;
+  box-shadow: 2px 2px 2px 2px grey;
   font-weight: bolder;
+  background-color: $blue-color;
+  border-radius: 5px;
+  border: none;
+  color: white;
 }
 .ShopTitle {
   font-weight: bolder;
   text-align: center;
+  color: $blue-color;
 }
 
 .ShopFilter {
-  background-color: #464141;
+  background-color: #ffcb77;
+  // color: $blue-color;
   text-align: center;
   display: flex;
   flex-direction: column;
+  align-items: center;
   font-size: 2rem;
   width: 20vw;
   line-height: 2em;
+  border: none;
+
+  a {
+    text-decoration: none;
+    color: #fe6d73;
+  }
 }
 
 .main-app {
@@ -40,10 +59,10 @@
   color: #464141;
   flex-wrap: wrap;
   justify-content: center;
+  border: none;
 }
 
 .container {
-  border-bottom: #fff 2px ridge;
   display: flex;
 }
 
@@ -54,15 +73,16 @@
   list-style: none;
   outline: none;
   justify-content: center;
+  color: $blue-color;
 }
 
 .pagination > .active > a {
-  background-color: #47ccde;
+  background-color: $blue-color;
   color: #fff;
 }
 
 .pagination > li > a {
-  border: 1px solid #47ccde;
+  border: 1px solid $blue-color;
   padding: 5px 10px;
   outline: none;
   cursor: pointer;
@@ -70,6 +90,18 @@
 
 .pagination > li > a,
 .pagination > li > span {
-  color: #47ccde;
+  color: $blue-color;
   background-color: azure;
+}
+
+.ItemTitle {
+  background-color: $jaune-color;
+}
+
+.filter-label {
+  text-shadow: 1px 1px 1px grey;
+}
+
+.filter-box {
+  height: 20px;
 }

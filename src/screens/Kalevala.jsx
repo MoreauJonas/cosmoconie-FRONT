@@ -9,14 +9,16 @@ const Kalevala = () => {
   const [launched, setLaunched] = useState(false);
   console.log("launched de screen ?", launched);
   return (
-    <div>
-      <h1 className="predicH1">Kalevala</h1>
-      <KalevalaForm launched={launched} setLaunched={setLaunched} />
-      {launched ? (
-        <KalevalaPrediction predictions={predictions} />
-      ) : (
-        <KalevalaWaiting />
-      )}
+    <div className="kalevala">
+      <div>
+        <h1 className="predicH1">Kalevala</h1>
+        <KalevalaForm launched={launched} setLaunched={setLaunched} />
+        {launched ? (
+          <KalevalaPrediction predictions={predictions} />
+        ) : (
+          <KalevalaWaiting />
+        )}
+      </div>
     </div>
   );
 };

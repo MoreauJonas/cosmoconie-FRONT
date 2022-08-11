@@ -1,23 +1,31 @@
 import { useRoutes } from "react-router-dom";
-import Kalevala from "./screens/Kalevala";
-import EventList from "../src/screens/EventList.jsx";
 import "./App.css";
-
-import Shop from "./screens/Shop";
 import Home from "./screens/Home";
+import Footer from "./components/Footer";
+import About from "./screens/About";
+import Kalevala from "./screens/Kalevala";
+import Navbar from "./components/Navbar";
+import Shop from "./screens/Shop";
+import EventList from "./screens/EventList";
+import Paiement from "./screens/Paiement";
 
 function App() {
   let element = useRoutes([
     { path: "/", element: <Home /> },
-    { path: "/kalevala", element: <Kalevala /> },
-    // { path: "/shop/:id", element: <Shop /> },
-    { path: "/events", element: <EventList /> },
+    { path: "/Kalevala", element: <Kalevala /> },
     { path: "/shop", element: <Shop /> },
-    // { path: "/shop/:id", element: <ShopDetails /> },
-    // { path: "/events/:id", element: <Event /> },
-    // { path: "/about", element: <About /> },
+    { path: "/events", element: <EventList /> },
+    { path: "/about", element: <About /> },
+    { path: "/paiement", element: <Paiement /> },
   ]);
-  return <div className="App">{element}</div>;
+
+  return (
+    <div className="App">
+      <Navbar />
+      {element}
+      <Footer />
+    </div>
+  );
 }
 
 export default App;
