@@ -6,7 +6,9 @@ import paysOiseaux from "../assets/images/paysOiseaux.jpg";
 const PresentationHp = () => {
   return (
     <div className="Pres">
-      <h6>C O S M O C O N I E</h6>
+      <a id="anchor-name">
+        <h6>C O S M O C O N I E</h6>
+      </a>
       <div className="flexT L"></div>
       <h1 className="Title">Au commencement...</h1>
       <div className="comIntro flex">

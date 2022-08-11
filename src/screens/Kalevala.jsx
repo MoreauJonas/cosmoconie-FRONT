@@ -3,7 +3,6 @@ import KalevalaForm from "../components/KalevalaForm";
 import KalevalaPrediction from "../components/KalevalaPrediction";
 import KalevalaWaiting from "../components/KalevalaWaiting";
 import kalevala from "../assets/data/kalevala.json";
-import Footer from "../components/Footer";
 
 const Kalevala = () => {
   const [predictions, setPredictions] = useState(kalevala);

@@ -1,12 +1,8 @@
 import { Facebook, Linkedin, Twitter, Youtube } from "react-feather";
-import tetecalimecon from "../assets/images/tetecalimecon.png";
 
 const Footer = () => {
   return (
     <div className="footer">
-      {/* <a href="/">
-        <img src={tetecalimecon} alt="calimecon" className="calimecon" />
-      </a> */}
       <div className="social">
         <a href="https://fr-fr.facebook.com/WildCodeSchool/" target="blank">
           <Facebook color="#ffcb77" size={35} />
