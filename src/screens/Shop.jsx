@@ -86,9 +86,12 @@ function Shop() {
       <div className="GrosseDiv">
         <div className="ShopFilter">
           <h3 className="ShopTitle">Le marché sur des oeufs</h3>
-          
-          <a href="/shop" className=""><ShoppingCartIcon />Panier</a>
-        
+
+          <a href="/shop" className="">
+            <ShoppingCartIcon />
+            Panier
+          </a>
+
           <div className="bandeau">
             <legend className="filter-label">Filtres des objets:</legend>
 
