@@ -1,9 +1,22 @@
 // Components //////////
-// @import "./components/Slider";
+@import "./components/Slider";
+@import "./components/presentationHp";
+@import "./components/item";
+@import "./components/event";
+// Screens //////////
+@import "./screens/_Kalevala.scss";
+@import "./screens/Home";
+@import "./screens/EventList";
 
 // Screens //////////
 // @import "./screens/Admin";
 @import "./screens/about";
+@import "./screens/Shop";
+
+@font-face {
+  font-family: "rmegg___";
+  src: url("../../fonts/rmegg___.ttf");
+}
 
 $white-color: #fef9ef;
 $jaune-color: #ffcb77; //bouton
