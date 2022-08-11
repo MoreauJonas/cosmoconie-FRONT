@@ -20,7 +20,7 @@
   },
   {
     "id": 3,
-    "nom": "la Poule ou l’Oeuf ?",
+    "nom": "La Poule ou l’Oeuf ?",
     "image": "question3.PNG",
     "description": "Vous vous êtes toujours posé la question ? C’est le moment d’avoir une réponse, venez participer à cette conférence mondiale ",
     "date": "31/08/2022",
@@ -33,7 +33,7 @@
     "image": "event4.jpg",
     "description": "Si vous allez plus loin, vous tombez ! Vous pourrez admirer de plus près la coquille céleste, et peut-être même la toucher du pied.",
     "date": "16/08/2022",
-    "tag": "Séjour",
+    "tag": "séjour",
     "lieu": "Bout de monde"
   },
   {
@@ -42,7 +42,7 @@
     "image": "event5.jpg",
     "description": "Réseaux sociaux, magazines people, les oeufs sont partout de nos jours. Quel impact sur nos vie ? ",
     "date": "02/09/2022",
-    "tag": "Conférence",
+    "tag": "conférences",
     "lieu": "Paris 9"
   },
   {
@@ -51,7 +51,7 @@
     "image": "event6.jpg",
     "description": "Venez profiter de l’ambiance magique de ce spectacle hors-norme. Vous rencontrerez les meilleurs ouvreurs et ouvreuses dans toutes le catégories: au sabre, avec le dos d'la cuillère, à mains nues, ou encore sans les mains.",
     "date": "04/09/2022",
-    "tag": "Festival",
+    "tag": "festival",
     "lieu": "Eux (80)"
   },
   {
@@ -60,7 +60,7 @@
     "image": "event7.jpg",
     "description": "Située sur l'île de Kvaløya, au Sud-Ouest du Cap Nord, la ville d'Hammerfest est souvent présentée comme la plus septentrionale du monde. Vous assisterez à une cérémonie sacrificielle de l’œuf de dragon, qui consiste à l’aide d’une coquille Stàllo de se séparer d’une partie de soi. ",
     "date": "25/08/2022",
-    "tag": "Séjour",
+    "tag": "séjour",
     "lieu": " Hammerfest"
   },
   {
@@ -69,7 +69,7 @@
     "image": "event8.jpg",
     "description": "La position de sommeil peut avoir des impacts sur la santé. Dormir dans une mauvaise position pendant de longues heures peut engendrer des problèmes de dos, des torticolis, agir sur la qualité de notre réveil et aggraver certains problèmes de santé. Si certains dorment sur le dos, sur le ventre ou sur le côté, la plupart des dormeurs dorment en position fœtale, une position qui offre de nombreux avantages.",
     "date": "32/08/2022",
-    "tag": "conférence",
+    "tag": "conférences",
     "lieu": "Kjøllefjord"
   },
   {
@@ -87,7 +87,7 @@
     "image": "event10.jpg",
     "description": "Séjour culinaire qui vous apprendra préparer les oeufs divinement, qu’ils soient: dur, à la coque, au plat, brouillés,en omelette, toqués ou encore vapeur",
     "date": "1 semaine",
-    "tag": "Séjour",
+    "tag": "séjour",
     "lieu": "Paimboeuf"
   },
   {
@@ -96,7 +96,7 @@
     "image": "event11.jpg",
     "description": "Assistez à cet événement sponsorisé par le chocolatier Kinder Rocher, avec l’intervention d’imminent historiens doctorant en Pâqueterie",
     "date": "13/08/2022",
-    "tag": "Conférence",
+    "tag": "conférences",
     "lieu": "Trécon(marne)"
   },
   {
@@ -105,7 +105,7 @@
     "image": "event12.jpg",
     "description": "Un espace naturel va devenir l’écrin privilégié de la construction d’un oeuf en bois de 5 mètres, objet mystérieux dans la nuit, vivant, lumineux et sonore, qui va grandir et se transformer jusqu’à un embrasement final. Il faudra une semaine de construction pour réaliser cet oeuf qui sera là, offerte à la curiosité des passants",
     "date": "",
-    "tag": "Festival",
+    "tag": "festival",
     "lieu": "Château Le Grand Verdus à Sadirac"
   },
   {
@@ -114,7 +114,7 @@
     "image": "event13.jpg",
     "description": "Rentrez au plus profond de vous-même et apprenez ainsi à laver le cerveau des passants afin que le monde entier finisse par accepter la vérité et se mette à vivre uniquement et seulement pour notre tout puissant Gourou. Que le jaune et le blanc se répandent et finissent par remplacer le bleu des océans!",
     "date": "04/09/2022",
-    "tag": "Conférence",
+    "tag": "conférences",
     "lieu": "Le salon du Président Macron"
   },
   {
@@ -123,7 +123,7 @@
     "image": "event14.jpg",
     "description": "L'œuf en or saura vous surprendre au plein milieu du grand Nord. Cette terre ancestrale d’où tout a commencé pénétra votre cœur. Vous serez conquis à jamais!",
     "date": "21/08/2022",
-    "tag": "Séjour",
+    "tag": "séjour",
     "lieu": "Laponie, Région de Finlande"
   },
   {
@@ -132,7 +132,7 @@
     "image": "event15.jpg",
     "description": "Venez découvrir tous les sons possibles et inimaginables de nos œufs sacrés! De la création du monde aux oeufs d’aujourd’hui sortant tout fraîchement du cul de la poule et d’autres ovipares.",
     "date": "12/09/2022",
-    "tag": "Festival",
+    "tag": "festival",
     "lieu": "La ferme des petites plumes (pour mieux vous plumer)"
   },
   {
@@ -141,7 +141,7 @@
     "image": "event16.jpg",
     "description": "Cessez de rester en position foetale, osez sortir de votre coquille et venez voir notre conférence sur la timidité !",
     "date": "09/09/2022",
-    "tag": "conférence",
+    "tag": "conférences",
     "lieu": "saint-père marc en poulet"
   },
   {
@@ -177,7 +177,7 @@
     "image": "event20.jpg",
     "description": "Nous connaissons tous autour de nous des personnes qui font des crêpes. Parlons-en ensemble et approfondissons le sujet lors d’une conférence dédiée à cette problématique. ",
     "date": "10/09/2022",
-    "tag": "conférence",
+    "tag": "conférences",
     "lieu": "Nogent-sur-l’oeuf"
   },
   {
