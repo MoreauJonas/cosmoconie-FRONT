@@ -42,7 +42,7 @@ const PresentationHp = () => {
             Pour nous guider dans notre chemin de vie, notre vénéré Calimecon !
             <br />
             Son leadership nous permet de voyager en état de transe par-delà le
-            « Tuonela », et communiquer avec nos défunts,cela après qu’ils aient
+            « Tuonela », et communiquer avec nos défunts, cela après qu’ils aient
             traversé une rivière sombre.
             <br />
             Sa sagesse et son empathie apaisent nos esprits et nous lient tous
