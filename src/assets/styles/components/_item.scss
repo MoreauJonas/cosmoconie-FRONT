@@ -1,0 +1,40 @@
+.ShopTitle {
+  font-size: 3rem;
+  font-weight: bolder;
+text-align: center;
+align-content: center;}
+.Shop {
+  display: flex;
+  flex-direction: row;
+  width:100vw;
+  height:100vh;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  .Item {
+    background-color: #fef9ef;
+    color:black;
+    height: 60vh;
+    margin:1em;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px white;
+    .ItemImage {
+      border-top: solid 1px white;
+      border-bottom: solid 1px white;
+      width: 20vw;
+      height: 20vh;
+      object-fit: cover;
+    }
+    .ItemDescription {
+      max-width: 20vw;
+      object-fit: contain;
+      flex-wrap: wrap;
+    }
+    .ItemTitle {
+      background-color: #ffcb77;
+      color:black;
+    }
+  }
+}
