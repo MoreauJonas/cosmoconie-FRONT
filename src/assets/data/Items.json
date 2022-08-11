@@ -1,0 +1,145 @@
+[{
+		"id": 1,
+		"nom": "œufs Fabergé",
+		"image": "boutique1.jpg",
+		"description": "Un objet d’art, mais aussi une relique essentielle au culte de la cosmoconie. Cela vous permettra d’être en phase avec le dieu UNIQUE, et vous permettra d’avoir une communication foetale optimale avec celui-ci",
+		"prix": "10 ans d’espérance de vie",
+		"tag": "culte"
+	},
+	{
+		"id": 2,
+		"nom": "poêle en coquille d’oeuf",
+		"image": "boutique2.jpg",
+		"description": "Une poêle entièrement faite en coquille d'œuf, qui ne résiste ni à la chaleur, ni au choc,  parfaite pour passer votre soirée à ramasser des coquilles dans votre cuisine. ",
+		"prix": "9 oeufs",
+		"tag": "quotidien"
+	},
+	{
+		"id": 3,
+		"nom": "masque à farine",
+		"image": "boutique3.jpg",
+		"description": "Un outil essentiel pour survivre à une potentielle apocalypse. Avec une autonomie de 6 heures, cela prolonge durablement vos capacités pulmonaire",
+		"prix": "une journée d'obéissance au dieu UNIQUE",
+		"tag": "survivance"
+	},
+	{
+		"id": 4,
+		"nom": "Oeufs carrés",
+		"image": "boutique4.jpg",
+		"description": "Christophe Colomb aurait pu y penser. Ces oeufs sont vraiment très pratiques à ranger, et bon à manger",
+		"prix": "9€ la demi-douzaine",
+		"tag": "quotidien"
+	},
+	{
+		"id": 5,
+		"nom": "Demi-livre de beurre doux",
+		"image": "boutique5.jpg",
+		"description": "En cas d’évacuation d’urgence, vous pourrez vous enduire le corps de beurre et glisser rapidement vers une sortie de secours.",
+		"prix": "2,49€",
+		"tag": "survivance"
+	},
+	{
+		"id": 6,
+		"nom": "Paire d’oeufs",
+		"image": "boutique6.jpg",
+		"description": "Une sacrée paire d’oeufs qui vous permettra de vous sortir de pas mal de situations.",
+		"prix": "15€",
+		"tag": "culte"
+	},
+  {
+		"id": 10,
+		"nom": "Pour des jolies oeufs pochés",
+		"image": "boutique10.jpg",
+		"description": "Ces coquilles en silicone de 9,5 centimètres de diamètre permettent de réaliser les œufs pochés simplement. Les œufs en effet ne trempent plus dans l’eau, donc ne se dispersent plus. Ces deux poches résistent à de très fortes températures et passent au lave-vaisselle. On peut aussi les utiliser au four traditionnel, au four à micro-ondes et au congélateur.",
+		"prix": "3 saucisses",
+		"tag": "Quotidien"
+	},
+	{
+		"id": 11,
+		"nom": "Coque-pousse",
+		"image": "boutique11.jpg",
+		"description": "Tu ne mourras pas de faim grâce à l’éco-coquille!! Un coton de l’eau et la magie opère.",
+		"prix": "Une statuette de Gladeulfeurah",
+		"tag": "Survivance"
+	},
+	{
+		"id": 12,
+		"nom": "Saint Flurb",
+		"image": "boutique12.webp",
+		"description": "L’objet de tous les cultes des années 90 est de nouveau parmi nous, cousin germain de notre grand Calimecon du côté nordiste. Avec son regard d’une intelligence sereine votre vie sera plus douce",
+		"prix": "6 paquets de Nuts",
+		"tag": "Culte"
+	},
+	{
+		"id": 13,
+		"nom": "Séparateur de jaune d'œuf",
+		"image": "boutique13.jpeg",
+		"description": "Très précieux. Cet ustensile vous permettra d’utiliser cette précieuse partie de nos œufs sacrés en toute simplicité. Vos cheveux ne perdront pas de leur éclat.",
+		"prix": "Une laitue, 1dl de riz et 3 pains trempés dans l’eau",
+		"tag": "Quotidien"
+	},
+	{
+		"id": 14,
+		"nom": "Lyophilisateur",
+		"image": "boutique14.png",
+		"description": "Les œufs sont un super aliment exceptionnel et la source de vitamines la moins chère sur le marché. Du coup : apprendre à stocker les œufs est aussi essentiel que de stocker de la farine ou du riz à des fins d’urgence à long terme ou en cas de catastrophe. Compact et peu lourd, ce lyophilsateur conservera nos œufs sacrés jusqu’à 10 à 25 ans. Mais il faudra vous rebrancher au réseau électrique et donc à la société pour pouvoir l’utiliser. Notre gourou vous pardonnera au confessionnal.",
+		"prix": "3 poulets et 24 poulettes",
+		"tag": "Survivance"
+	},
+	{
+		"id": 15,
+		"nom": "L'œuf orphique et les quatre éléments",
+		"image": "boutique15.jpeg",
+		"description": "La vie éternelle dépend de la vie menée sur la terre, et que seule une vie ascétique peut sauvegarder la pureté de l'âme de l'impureté du corps. Cet ouvrage exceptionnel vous mènera à vous accouder au bar avec notre tout puissant Gourou",
+		"prix": "5 Pléiades complètes",
+		"tag": "Culte"
+	},
+	{
+		"id": 16,
+		"nom": "potion de changement",
+		"image": "boutique16.png",
+		"description": "Avec ceci, vous pourrez échanger de corps pendant une journée avec la personne (ou l’animal si vous voulez) qui partage le contenu de cette potion, ",
+		"prix": "100 pièces d’or ou en nature",
+		"tag": "culte"
+	},
+	{
+		"id": 17,
+		"nom": "vaisseau spatial",
+		"image": "boutique17.webp",
+		"description": "Avec cette capsule spatiale en forme d’oeuf, vous pourrez tentez d’échapper à la fin du monde ",
+		"prix": "100 000 pièces d’or",
+		"tag": "survivance"
+	},
+	{
+		"id": 18,
+		"nom": "Kinder surprise",
+		"image": "boutique18.jpg",
+		"description": "Un peu de gourmandise avant la fin du monde, ça mange pas de pain. Et oui c’est cher, mais c’est une denrée rare avec la crise en Ukraine, le covid, le problème sanitaire de Kinder et la fin du monde annoncée",
+		"prix": "50 euros",
+		"tag": "quotidien"
+	},
+	{
+		"id": 19,
+		"nom": "Pot de Nutella",
+		"image": "boutique19.jpg",
+		"description": "Une petite touche de douceur avant de finir en crêpe géante interstellaire. Ne regardez pas aux calories, vous n’irez pas jusqu’à l’été prochain. Ne regardez pas non plus à l’huile de palme, les gorilles vont y passer aussi.",
+		"prix": "5 blancs et 2 jaunes d’oeufs",
+		"tag": "quotidien"
+	},
+	{
+		"id": 20,
+		"nom": "Boîte à oeufs vide",
+		"image": "boutique20.jpg",
+		"description": "Embarcation d’urgence pour oeufs, porteurs d’espoir : 1 oeuf = 2 planètes, donc plusieurs boîtes comme celles-ci permettront de créer assez de planètes pour peupler une nouvelle galaxie, toute belle, toute neuve.",
+		"prix": "Tout ce que vous possédez x2",
+		"tag": "survivance"
+	},
+	{
+		"id": 21,
+		"nom": "Déguisement de Caliméro",
+		"image": "boutique21.webp",
+		"description": "Devenez une réplique grandeur nature de notre leader, pour épater copains et copines et au passage porter la bonne parole de manière CREDIBLE sur la véritable histoire de la création de la Terre…. Et en finir enfin avec ces arriérés qui pensent encore que la Terre est ronde…",
+		"prix": "une boîte à oeufs vide",
+		"tag": "culte"
+	}
+]
