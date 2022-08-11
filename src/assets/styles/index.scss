@@ -2,6 +2,7 @@
 @import "./components/Slider";
 @import "./components/presentationHp";
 @import "./components/item";
+@import "./components/_footer.scss";
 // Screens //////////
 @import "./screens/_Kalevala.scss";
 // @import "./screens/Admin";
@@ -14,6 +15,8 @@
 @font-face {
   font-family: "rmegg___";
   src: url("../../fonts/rmegg___.ttf");
+  // font-family: "Eggy_Bunny";
+  // src: url("../../fonts/Eggy_Bunny.ttf");
 }
 
 $white-color: #fef9ef;
@@ -36,6 +39,7 @@ body {
 
 h6 {
   font-family: rmegg___;
+  // font-family: Eggy_Bunny;
   font-size: 5rem;
 }
 code {

@@ -6,6 +6,7 @@ import paysOiseaux from "../assets/images/paysOiseaux.jpg";
 const PresentationHp = () => {
   return (
     <div className="Pres">
+      <h6>C O S M O C O N I E</h6>
       <div className="flexT L"></div>
       <h1 className="Title">Au commencement...</h1>
       <div className="comIntro flex">
@@ -42,8 +43,8 @@ const PresentationHp = () => {
             Pour nous guider dans notre chemin de vie, notre vénéré Calimecon !
             <br />
             Son leadership nous permet de voyager en état de transe par-delà le
-            « Tuonela », et communiquer avec nos défunts, cela après qu’ils aient
-            traversé une rivière sombre.
+            « Tuonela », et communiquer avec nos défunts, cela après qu’ils
+            aient traversé une rivière sombre.
             <br />
             Sa sagesse et son empathie apaisent nos esprits et nous lient tous
             au « Lintukoto »

@@ -3,6 +3,7 @@ import Kalevala from "./screens/Kalevala";
 import EventList from "../src/screens/EventList.jsx";
 import "./App.css";
 import Home from "./screens/Home";
+import Footer from "./components/Footer";
 
 import Shop from "./screens/Shop";
 
@@ -17,7 +18,13 @@ function App() {
     // { path: "/events/:id", element: <Event /> },
     // { path: "/about", element: <About /> },
   ]);
-  return <div className="App">{element}</div>;
+  return (
+    <div className="App">
+      {/* <Header /> */}
+      {element}
+      <Footer />
+    </div>
+  );
 }
 
 export default App;
