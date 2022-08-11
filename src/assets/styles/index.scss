@@ -4,10 +4,12 @@
 @import "./components/item";
 @import "./components/event";
 // Screens //////////
+@import "./screens/_Kalevala.scss";
 @import "./screens/Home";
 @import "./screens/EventList";
 
 // Screens //////////
+@import "./screens/Shop";
 // @use "../styles/screens/EventList";
 
 @font-face {
