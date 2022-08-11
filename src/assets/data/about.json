@@ -1,0 +1,56 @@
+[ 
+{ "id": 1, 
+"nom": "Dupont", 
+"prénom": "Fabrice", 
+"photo": "Fabrice.png", 
+"particularité": "Aime les oeufs vidéo", 
+"role": "Destructureur d’intemporalité"
+ },
+
+{ "id": 2, 
+"nom": "Moreau", 
+"prénom": "Jonas", 
+"photo": "Jonas.png", 
+"particularité": "Maîtrise la position foetale à la perfection ", 
+"role": "Grand Ecaleur Cosmic"
+ },
+
+{ "id": 3, 
+"nom": "Carillo", 
+"prénom": "Laure", 
+"photo": "Laure.png", 
+"particularité": "Secret défense dixit Calimecon", 
+"role": "Brasseuse d’air"
+ },
+
+{ "id": 4, 
+"nom": "Fortineau", 
+"prénom": "Laëtitia", 
+"photo": "Laetitia.png", 
+"particularité": "Ne digère pas les oeufs", 
+"role": "Cosmochieuse"
+ },
+{ "id": 5, 
+"nom": "Samson", 
+"prénom": "Rémi", 
+"photo": "Remi.png", 
+"particularité": "Toujours à la cock-coque", 
+"role": "Pédaleur"
+ },
+
+{ "id": 6, 
+"nom": "Dupin", 
+"prénom": "Joshua", 
+"photo": "Josh.png", 
+"particularité": "Fait des pets avec ses mains ", 
+"role": "Cosmopicrate"
+ },
+
+{ "id": 7, 
+"nom": "Lamant", 
+"prénom": "Sophie", 
+"photo": "Sophie.png", 
+"particularité": "S’en bat la coquille", 
+"role": "Cosmoévangéliste"
+ }
+ ]
