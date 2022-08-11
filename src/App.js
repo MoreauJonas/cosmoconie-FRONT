@@ -2,9 +2,9 @@ import { useRoutes } from "react-router-dom";
 import Kalevala from "./screens/Kalevala";
 import EventList from "../src/screens/EventList.jsx";
 import "./App.css";
-import Home from "./screens/Home";
 
 import Shop from "./screens/Shop";
+import Home from "./screens/Home";
 
 function App() {
   let element = useRoutes([

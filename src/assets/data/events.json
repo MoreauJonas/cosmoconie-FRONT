@@ -26,5 +26,167 @@
     "date": "31/08/2022",
     "tag": "conférences",
     "lieu": "Bourgneuf"
+  },
+  {
+    "id": 4,
+    "nom": "Voyage au bout du monde.",
+    "image": "event4.jpg",
+    "description": "Si vous allez plus loin, vous tombez ! Vous pourrez admirer de plus près la coquille céleste, et peut-être même la toucher du pied.",
+    "date": "16/08/2022",
+    "tag": "Séjour",
+    "lieu": "Bout de monde"
+  },
+  {
+    "id": 5,
+    "nom": "Les yeux dans les oeufs",
+    "image": "event5.jpg",
+    "description": "Réseaux sociaux, magazines people, les oeufs sont partout de nos jours. Quel impact sur nos vie ? ",
+    "date": "02/09/2022",
+    "tag": "Conférence",
+    "lieu": "Paris 9"
+  },
+  {
+    "id": 6,
+    "nom": "Cérémonie d’ouverture des oeufs olympiques",
+    "image": "event6.jpg",
+    "description": "Venez profiter de l’ambiance magique de ce spectacle hors-norme. Vous rencontrerez les meilleurs ouvreurs et ouvreuses dans toutes le catégories: au sabre, avec le dos d'la cuillère, à mains nues, ou encore sans les mains.",
+    "date": "04/09/2022",
+    "tag": "Festival",
+    "lieu": "Eux (80)"
+  },
+  {
+    "id": 7,
+    "nom": "Coquille sacrificielle Stállo (Áhkkánjárgstábba)",
+    "image": "event7.jpg",
+    "description": "Située sur l'île de Kvaløya, au Sud-Ouest du Cap Nord, la ville d'Hammerfest est souvent présentée comme la plus septentrionale du monde. Vous assisterez à une cérémonie sacrificielle de l’œuf de dragon, qui consiste à l’aide d’une coquille Stàllo de se séparer d’une partie de soi. ",
+    "date": "25/08/2022",
+    "tag": "Séjour",
+    "lieu": " Hammerfest"
+  },
+  {
+    "id": 8,
+    "nom": "La coquille et la position fœtale",
+    "image": "event8.jpg",
+    "description": "La position de sommeil peut avoir des impacts sur la santé. Dormir dans une mauvaise position pendant de longues heures peut engendrer des problèmes de dos, des torticolis, agir sur la qualité de notre réveil et aggraver certains problèmes de santé. Si certains dorment sur le dos, sur le ventre ou sur le côté, la plupart des dormeurs dorment en position fœtale, une position qui offre de nombreux avantages.",
+    "date": "32/08/2022",
+    "tag": "conférence",
+    "lieu": "Kjøllefjord"
+  },
+  {
+    "id": 9,
+    "nom": "Festival Ukonkivi",
+    "image": "event9.jpg",
+    "description": "Venez vous perdre sur cette île finlandaise. Au sons des retentissantes percussions sur coquille d’œuf. Dépaysement total et reconnexion au poussin interne.",
+    "date": "15/08/2022",
+    "tag": "festival",
+    "lieu": "Ukonkivi"
+  },
+  {
+    "id": 10,
+    "nom": "Mimosa",
+    "image": "event10.jpg",
+    "description": "Séjour culinaire qui vous apprendra préparer les oeufs divinement, qu’ils soient: dur, à la coque, au plat, brouillés,en omelette, toqués ou encore vapeur",
+    "date": "1 semaine",
+    "tag": "Séjour",
+    "lieu": "Paimboeuf"
+  },
+  {
+    "id": 11,
+    "nom": "Fête de Pâques",
+    "image": "event11.jpg",
+    "description": "Assistez à cet événement sponsorisé par le chocolatier Kinder Rocher, avec l’intervention d’imminent historiens doctorant en Pâqueterie",
+    "date": "13/08/2022",
+    "tag": "Conférence",
+    "lieu": "Trécon(marne)"
+  },
+  {
+    "id": 12,
+    "nom": "L’oeuf du Phénix",
+    "image": "event12.jpg",
+    "description": "Un espace naturel va devenir l’écrin privilégié de la construction d’un oeuf en bois de 5 mètres, objet mystérieux dans la nuit, vivant, lumineux et sonore, qui va grandir et se transformer jusqu’à un embrasement final. Il faudra une semaine de construction pour réaliser cet oeuf qui sera là, offerte à la curiosité des passants",
+    "date": "",
+    "tag": "Festival",
+    "lieu": "Château Le Grand Verdus à Sadirac"
+  },
+  {
+    "id": 13,
+    "nom": "La fin du déni",
+    "image": "event13.jpg",
+    "description": "Rentrez au plus profond de vous-même et apprenez ainsi à laver le cerveau des passants afin que le monde entier finisse par accepter la vérité et se mette à vivre uniquement et seulement pour notre tout puissant Gourou. Que le jaune et le blanc se répandent et finissent par remplacer le bleu des océans!",
+    "date": "04/09/2022",
+    "tag": "Conférence",
+    "lieu": "Le salon du Président Macron"
+  },
+  {
+    "id": 14,
+    "nom": "Le sauna solaire en or",
+    "image": "event14.jpg",
+    "description": "L'œuf en or saura vous surprendre au plein milieu du grand Nord. Cette terre ancestrale d’où tout a commencé pénétra votre cœur. Vous serez conquis à jamais!",
+    "date": "21/08/2022",
+    "tag": "Séjour",
+    "lieu": "Laponie, Région de Finlande"
+  },
+  {
+    "id": 15,
+    "nom": "Festival des oeufs sonores",
+    "image": "event15.jpg",
+    "description": "Venez découvrir tous les sons possibles et inimaginables de nos œufs sacrés! De la création du monde aux oeufs d’aujourd’hui sortant tout fraîchement du cul de la poule et d’autres ovipares.",
+    "date": "12/09/2022",
+    "tag": "Festival",
+    "lieu": "La ferme des petites plumes (pour mieux vous plumer)"
+  },
+  {
+    "id": 16,
+    "nom": "Osez sortir de votre coquille",
+    "image": "event16.jpg",
+    "description": "Cessez de rester en position foetale, osez sortir de votre coquille et venez voir notre conférence sur la timidité !",
+    "date": "09/09/2022",
+    "tag": "conférence",
+    "lieu": "saint-père marc en poulet"
+  },
+  {
+    "id": 17,
+    "nom": "Fête du jaune d’oeuf",
+    "image": "event17.webp",
+    "description": "Pour célébrer le jaune d’oeuf (sang de notre seigneur Caliméro), venez à notre festival du jaune d’oeuf ! Au programme: crêpes, galettes et bataille de jaune d’oeufs, arriverez-vous à rester propre ?",
+    "date": "25/08/2022",
+    "tag": "festival",
+    "lieu": ""
+  },
+  {
+    "id": 18,
+    "nom": "Stage mécano avec Dr. Eggman",
+    "image": "event18.webp",
+    "description": "Partez en séjour et suivez une formation avec le célèbre Dr. Eggman alias Robotnik, peut-être arrivez-vous à fabriquer une machine afin de survivre à la tempête mortelle de farine prévue le 30 Septembre ! ",
+    "date": "20/08/2022",
+    "tag": "séjour",
+    "lieu": "green hill zone"
+  },
+  {
+    "id": 19,
+    "nom": "Retraite à l’île des Oeufs",
+    "image": "event19.jpg",
+    "description": "Venez profiter de quelques jours sur une île paradisiaque et partager des moments conviviaux autour de la spiritualité cosmoconne. Notre leader Caliméro fera (peut-être) une apparition (mais probablement pas). ",
+    "date": "04/09/2022",
+    "tag": "séjour",
+    "lieu": "Ile des oeufs, dans le Morbihan"
+  },
+  {
+    "id": 20,
+    "nom": "Les crêpes, une recette qui fait recettes",
+    "image": "event20.jpg",
+    "description": "Nous connaissons tous autour de nous des personnes qui font des crêpes. Parlons-en ensemble et approfondissons le sujet lors d’une conférence dédiée à cette problématique. ",
+    "date": "10/09/2022",
+    "tag": "conférence",
+    "lieu": "Nogent-sur-l’oeuf"
+  },
+  {
+    "id": 21,
+    "nom": "Journée mondiale de l’Oeuf",
+    "image": "event21.jpg",
+    "description": "La dernière journée mondiale de l’Oeuf aura lieu le 30/09/2022 (la date initiale du 08/10 ayant été avancée pour cause de fin du monde). Jeux, concours d’omelettes, courses à dos d’oeufs et peinture sur oeufs, autant de réjouissances pour fêter ce formidable objet, symbole de la naissance du Monde (et aussi des bonnes galettes-saucisses)",
+    "date": "30/09/202",
+    "tag": "festival",
+    "lieu": "HossOEUFgor"
   }
 ]

@@ -2,10 +2,11 @@
 @import "./components/Slider";
 @import "./components/presentationHp";
 @import "./components/item";
+@import "./components/event";
 // Screens //////////
 @import "./screens/_Kalevala.scss";
-// @import "./screens/Admin";
 @import "./screens/Home";
+@import "./screens/EventList";
 
 // Screens //////////
 @import "./screens/Shop";
