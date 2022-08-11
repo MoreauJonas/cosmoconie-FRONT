@@ -43,7 +43,7 @@ function Event({ nom, image, description, date, tag, lieu }) {
             alt="Logo"
           />
           <div className="card-text">
-            <div>{description}</div>
+            <p className="descri">{description}</p>
           </div>
         </div>
       </Button>

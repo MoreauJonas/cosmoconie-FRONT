@@ -1,5 +1,7 @@
 $rouge-color: #fe6d73;
 $white-color: #fef9ef;
+$jaune-color: #ffcb77;
+$blue-color: #4490a1;
 
 .containerFilter {
   display: flex;
@@ -9,7 +11,8 @@ $white-color: #fef9ef;
   }
 
   .tagFilter {
-    background-color: #464141;
+    text-shadow: 1px 1px 1px grey;
+    background-color: $jaune-color;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -18,10 +21,11 @@ $white-color: #fef9ef;
     line-height: 2em;
   }
   .EventTitle {
+    margin-bottom: 40px;
     font-weight: bolder;
     font-size: 2rem;
     text-align: center;
-    border: #fff solid 1px;
+    text-shadow: 1px 1px 1px grey;
   }
 
   .red {
@@ -42,7 +46,6 @@ $white-color: #fef9ef;
 
   .main-app {
     display: flex;
-    border: 2px ridge #464141;
     padding: 2%;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     font-size: 1.2rem;
@@ -51,22 +54,14 @@ $white-color: #fef9ef;
     justify-content: center;
   }
 }
-.pagination {
-  margin-top: 45px;
-  margin-left: -40px;
-  display: flex;
-  list-style: none;
-  outline: none;
-  justify-content: center;
-}
 
 .pagination > .active > a {
-  background-color: #47ccde;
+  background-color: $blue-color;
   color: #fff;
 }
 
 .pagination > li > a {
-  border: 1px solid #47ccde;
+  border: 1px solid $blue-color;
   padding: 5px 10px;
   outline: none;
   cursor: pointer;
@@ -74,15 +69,43 @@ $white-color: #fef9ef;
 
 .pagination > li > a,
 .pagination > li > span {
-  color: #47ccde;
+  color: $blue-color;
   background-color: azure;
 }
 
 .ici {
+  line-height: 2em;
   display: flex;
   flex-direction: column;
+  font-size: 2rem;
+  button {
+    height: 3em;
+    width: 80%;
+
+    box-shadow: 2px 2px 2px 2px grey;
+    font-weight: bolder;
+    background-color: rgb(68, 144, 161);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin: auto;
+  }
 }
 
 .tout {
   padding-bottom: 100px;
+  input {
+    height: 2vh;
+  }
+}
+.TitleEvent {
+  font-weight: bolder;
+  text-align: center;
+  color: $blue-color;
+  font-size: 2.5em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  line-height: 2em;
 }

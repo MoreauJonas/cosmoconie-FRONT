@@ -1,12 +1,14 @@
 $rouge-color: #fe6d73;
+$jaune-color: #ffcb77;
 
 //card
 .card {
+  border-radius: 5px;
   background-color: white;
   color: #272727;
   max-width: 41vw;
   width: 25vw;
-  height: 52vh;
+  height: 40vh;
   padding: 20px;
   margin: 10px;
   border: 0px;
@@ -17,7 +19,7 @@ $rouge-color: #fe6d73;
   .card:hover {
     transition: 200ms;
     border: 3px;
-    border-color: tomato;
+    border-color: $rouge-color;
     border-style: solid;
   }
 
@@ -30,7 +32,7 @@ $rouge-color: #fe6d73;
   .profile {
     width: 10.5rem;
     height: 1.7000000000000002rem;
-    background-color: tomato;
+    background-color: $rouge-color;
     border-radius: 50px;
     margin: 10px;
     font-size: 20pt;
@@ -50,7 +52,7 @@ $rouge-color: #fe6d73;
 
   .card-title {
     flex: 0.5;
-    font-size: large;
+    font-size: 2rem;
     margin-bottom: 0;
     margin-top: 0;
   }
@@ -62,10 +64,10 @@ $rouge-color: #fe6d73;
 
   .card-image {
     border-radius: 10px;
-    margin-bottom: 10px;
+
     margin-top: 10px;
     width: 25vw;
-    margin-bottom: 30px;
+
     object-fit: contain;
     height: 27vh;
   }
@@ -92,11 +94,11 @@ $rouge-color: #fe6d73;
   background-color: white;
   color: #272727;
   max-width: 41vw;
-  height: 60vh;
+  height: 45vh;
   padding: 20px;
   margin: 10px;
   border: 0px;
-  border-color: tomato;
+  border-color: $rouge-color;
   border-style: solid;
   transition: 200ms;
 
@@ -115,8 +117,8 @@ $rouge-color: #fe6d73;
 
   .profile {
     width: 12vw;
-    height: 5vh;
-    background-color: tomato;
+    height: auto;
+    background-color: $rouge-color;
     border-radius: 50px;
     margin: 10px;
     font-size: 20pt;
@@ -136,7 +138,7 @@ $rouge-color: #fe6d73;
 
   .card-title {
     flex: 0.5;
-    font-size: x-large;
+    font-size: xx-large;
     margin-bottom: 0;
     margin-top: 0;
   }
@@ -148,7 +150,6 @@ $rouge-color: #fe6d73;
 
   .card-image {
     border-radius: 10px;
-    margin-bottom: 10px;
     margin-top: 10px;
     height: 27vh;
     margin-bottom: 30px;
@@ -160,9 +161,10 @@ $rouge-color: #fe6d73;
   }
 
   .card-text {
-    font-size: 0.9em !important;
+    font-size: 1.5em !important;
     max-width: 40vw;
     display: flex;
+    font-size: 2em;
   }
 }
 
@@ -187,3 +189,14 @@ $rouge-color: #fe6d73;
 //     }
 //   }
 // }
+.descri {
+  padding-top: 20px;
+  margin-top: 0;
+  text-overflow: ellipsis;
+  white-space: wrap;
+  overflow: hidden;
+  font-size: 1em;
+}
+.css-1gkse3u {
+  border-radius: 5px;
+}
