@@ -5,6 +5,7 @@ $rouge-color: #fe6d73;
   background-color: white;
   color: #272727;
   max-width: 41vw;
+  width: 25vw;
   height: 52vh;
   padding: 20px;
   margin: 10px;
@@ -13,12 +14,6 @@ $rouge-color: #fe6d73;
   border-style: solid;
   transition: 200ms;
 
-  img {
-    width: 40vw;
-    height: 27vh;
-    margin-bottom: 30px;
-    object-fit: contain;
-  }
   .card:hover {
     transition: 200ms;
     border: 3px;
@@ -69,6 +64,10 @@ $rouge-color: #fe6d73;
     border-radius: 10px;
     margin-bottom: 10px;
     margin-top: 10px;
+    width: 25vw;
+    margin-bottom: 30px;
+    object-fit: contain;
+    height: 27vh;
   }
   .card-like-icon {
     height: 25px;
@@ -101,12 +100,6 @@ $rouge-color: #fe6d73;
   border-style: solid;
   transition: 200ms;
 
-  img {
-    width: 40vw;
-    height: 27vh;
-    margin-bottom: 30px;
-    object-fit: contain;
-  }
   .card:hover {
     transition: 200ms;
     border: 3px;
@@ -157,6 +150,10 @@ $rouge-color: #fe6d73;
     border-radius: 10px;
     margin-bottom: 10px;
     margin-top: 10px;
+    height: 27vh;
+    margin-bottom: 30px;
+    object-fit: contain;
+    width: 40vw;
   }
   .card-like-icon {
     height: 25px;

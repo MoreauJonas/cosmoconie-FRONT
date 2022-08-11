@@ -1,16 +1,29 @@
 $rouge-color: #fe6d73;
 $white-color: #fef9ef;
 
-.tagFilter {
+.containerFilter {
   display: flex;
-
-  .buttonFilter {
-    border: 1px solid black;
-    justify-content: center;
-    border-radius: 50px;
-    width: 7em;
-    color: $white-color;
+  .GrosseDiv {
+    display: flex;
+    height: auto;
   }
+
+  .tagFilter {
+    background-color: #464141;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    width: 20vw;
+    line-height: 2em;
+  }
+  .EventTitle {
+    font-weight: bolder;
+    font-size: 2rem;
+    text-align: center;
+    border: #fff solid 1px;
+  }
+
   .red {
     background-color: $rouge-color;
   }
@@ -20,9 +33,52 @@ $white-color: #fef9ef;
   .green {
     background-color: green;
   }
+
+  .flexObject {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .main-app {
+    display: flex;
+    border: 2px ridge #464141;
+    padding: 2%;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 1.2rem;
+    color: #464141;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
-.flexObject {
+.pagination {
+  margin-top: 45px;
+  margin-left: -40px;
   display: flex;
-  flex-wrap: wrap;
+  list-style: none;
+  outline: none;
   justify-content: center;
+}
+
+.pagination > .active > a {
+  background-color: #47ccde;
+  color: #fff;
+}
+
+.pagination > li > a {
+  border: 1px solid #47ccde;
+  padding: 5px 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+.pagination > li > a,
+.pagination > li > span {
+  color: #47ccde;
+  background-color: azure;
+}
+
+.ici {
+  display: flex;
+  flex-direction: column;
 }

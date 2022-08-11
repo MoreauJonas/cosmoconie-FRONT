@@ -67,49 +67,54 @@ function EventList() {
   }, [offset]);
   return (
     <>
-      <div>
+      <ReactPaginate
+        previousLabel={"previous"}
+        nextLabel={"next"}
+        breakLabel={"..."}
+        breakClassName={"break-me"}
+        pageCount={pageCount}
+        onPageChange={handlePageClick}
+        containerClassName={"pagination"}
+        subContainerClassName={"pages pagination"}
+        activeClassName={"active"}
+      />
+      <div className="containerFilter">
         <a id="hautPage"></a>
         <div className="tagFilter">
           <fieldset>
-            <legend>Filtres des évenements:</legend>
-
-            <input
-              id="tags"
-              type="checkbox"
-              value="conférence"
-              name="Conférences"
-              onChange={(e) => setFilterRed(e.target.checked)}
-            />
-            <label htmlFor="tagsConférence">Conférences</label>
-            <input
-              type="checkbox"
-              value="festivals"
-              name="Festivals"
-              onChange={(e) => setFilterBlue(e.target.checked)}
-            />
-            <label htmlFor="tagsFestivals">Festivals</label>
-            <input
-              type="checkbox"
-              value="séjour"
-              name="Séjours"
-              onChange={(e) => setFilterGreen(e.target.checked)}
-            />
-            <label htmlFor="tagsSéjour">Séjours</label>
-            <button type="submit" onClick={checkCreteria}>
-              Recherche
-            </button>
+            <legend className="EventTitle">Filtres des évenements:</legend>
+            <div className="ici">
+              <input
+                id="tags"
+                type="checkbox"
+                value="conférence"
+                name="Conférences"
+                onChange={(e) => setFilterRed(e.target.checked)}
+              />
+              <label htmlFor="tagsConférence">Conférences</label>
+              <input
+                type="checkbox"
+                value="festivals"
+                name="Festivals"
+                onChange={(e) => setFilterBlue(e.target.checked)}
+              />
+              <label htmlFor="tagsFestivals">Festivals</label>
+              <input
+                type="checkbox"
+                value="séjour"
+                name="Séjours"
+                onChange={(e) => setFilterGreen(e.target.checked)}
+              />
+              <label htmlFor="tagsSéjour">Séjours</label>
+              <button
+                type="submit"
+                onClick={checkCreteria}
+                className=".EventButton"
+              >
+                Recherche
+              </button>
+            </div>
           </fieldset>
-          <ReactPaginate
-            previousLabel={"previous"}
-            nextLabel={"next"}
-            breakLabel={"..."}
-            breakClassName={"break-me"}
-            pageCount={pageCount}
-            onPageChange={handlePageClick}
-            containerClassName={"pagination"}
-            subContainerClassName={"pages pagination"}
-            activeClassName={"active"}
-          />
         </div>
 
         <div className="main-app">
