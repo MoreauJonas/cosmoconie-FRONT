@@ -1,7 +1,7 @@
 import { useRoutes } from "react-router-dom";
 import EventList from "../src/screens/EventList.jsx";
 import "./App.css";
-import Shop from "./screens/Shop"
+import Shop from "./screens/Shop";
 
 function App() {
   let element = useRoutes([
@@ -10,7 +10,6 @@ function App() {
 
     // { path: "/shop/:id", element: <Shop /> },
     { path: "/events", element: <EventList /> },
-
     { path: "/shop", element: <Shop /> },
     // { path: "/shop/:id", element: <ShopDetails /> },
 
@@ -18,7 +17,6 @@ function App() {
     // { path: "/about", element: <About /> },
   ]);
   return <div className="App">{element}</div>;
-  
 }
 
 export default App;
