@@ -5,7 +5,7 @@ $rouge-color: #fe6d73;
   background-color: white;
   color: #272727;
   max-width: 41vw;
-  height: 45vh;
+  height: 52vh;
   padding: 20px;
   margin: 10px;
   border: 0px;
@@ -93,7 +93,7 @@ $rouge-color: #fe6d73;
   background-color: white;
   color: #272727;
   max-width: 41vw;
-  height: 45vh;
+  height: 60vh;
   padding: 20px;
   margin: 10px;
   border: 0px;
@@ -121,8 +121,8 @@ $rouge-color: #fe6d73;
   }
 
   .profile {
-    width: 10.5rem;
-    height: 2.7rem;
+    width: 12vw;
+    height: 5vh;
     background-color: tomato;
     border-radius: 50px;
     margin: 10px;
@@ -143,7 +143,7 @@ $rouge-color: #fe6d73;
 
   .card-title {
     flex: 0.5;
-    font-size: large;
+    font-size: x-large;
     margin-bottom: 0;
     margin-top: 0;
   }
@@ -163,12 +163,15 @@ $rouge-color: #fe6d73;
   }
 
   .card-text {
-    font-size: x-large !important;
+    font-size: 0.9em !important;
     max-width: 40vw;
     display: flex;
   }
 }
 
+.containerEvent {
+  bottom: 100px;
+}
 // @media screen and (max-width: 1560px) {
 //   .card {
 //     background-color: white;

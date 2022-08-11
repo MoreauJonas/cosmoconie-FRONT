@@ -23,7 +23,7 @@ function Event({ nom, image, description, date, tag, lieu }) {
     p: 4,
   };
   return (
-    <>
+    <div className="containerEvent">
       <Button onClick={handleOpen}>
         <div className="card">
           <div className="card-header">
@@ -77,7 +77,7 @@ function Event({ nom, image, description, date, tag, lieu }) {
           </Typography>
         </Box>
       </Modal>
-    </>
+    </div>
   );
 }
 

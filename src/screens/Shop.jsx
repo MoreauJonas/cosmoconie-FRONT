@@ -29,7 +29,6 @@ function Shop() {
       : result.filter((filt) => !filt.tag.includes("quotidien"));
 
     setItems(result);
-
     setAllPosts(getPostData(result));
   };
   const getPostData = (arr) => {
