@@ -3,15 +3,14 @@
 @import "./components/Slider";
 @import "./components/presentationHp";
 @import "./components/item";
+@import "./components/footer";
 @import "./components/event";
-
 // Screens //////////
-@import "./screens/_Kalevala.scss";
+@import "./screens/Kalevala";
 @import "./screens/Home";
 @import "./screens/EventList";
 @import "./screens/Shop";
 @import "./screens/about";
-@import "./screens/Shop";
 @import "./screens/Paiement";
 
 @font-face {

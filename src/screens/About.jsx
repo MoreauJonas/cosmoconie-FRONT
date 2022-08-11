@@ -4,7 +4,7 @@ import { useState } from "react";
 const About = () => {
   const [persons, setPersons] = useState(about);
   return (
-    <>
+    <div className="about">
       <h1 className="aboutTitle">Une rencontre que vous n'oublierez pas!</h1>
       <p className="aboutResum">
         Vous avez des doutes sur la théorie loufoque prétendant que la Terre est
@@ -57,7 +57,7 @@ const About = () => {
           ))}
         </div>
       )}
-    </>
+    </div>
   );
 };
 
