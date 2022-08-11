@@ -1,4 +1,5 @@
 import { useRoutes } from "react-router-dom";
+import Kalevala from "./screens/Kalevala";
 import EventList from "../src/screens/EventList.jsx";
 import "./App.css";
 import Home from "./screens/Home";
@@ -8,8 +9,7 @@ import Shop from "./screens/Shop";
 function App() {
   let element = useRoutes([
     { path: "/", element: <Home /> },
-    // { path: "/Kalevala", element: <Kalevala /> },
-
+    { path: "/kalevala", element: <Kalevala /> },
     // { path: "/shop/:id", element: <Shop /> },
     { path: "/events", element: <EventList /> },
     { path: "/shop", element: <Shop /> },
