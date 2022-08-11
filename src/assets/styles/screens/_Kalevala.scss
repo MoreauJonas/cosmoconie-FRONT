@@ -1,0 +1,241 @@
+$white-color: #fef9ef;
+$jaune-color: #ffcb77; //bouton
+$blue-color: rgb(68, 144, 161);
+$rouge-color: #fe6d73; //compteur
+
+// KALEVALA FORM //////////
+
+.predicH1 {
+  text-align: center;
+}
+
+.predicForm {
+  background-color: rgba(251, 251, 251, 0.27);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.predicChamp {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.predicChamp label {
+  min-width: 250px;
+}
+
+.predicChamp input {
+  width: 15vw;
+  height: 25px;
+  border: none;
+  border-radius: 5px;
+}
+
+.predicSelect {
+  width: 15vw;
+  height: 25px;
+  border: none;
+  border-radius: 5px;
+}
+
+.predicTitle {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.predicP {
+  margin: 0 auto 20px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.predicFormButton {
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  justify-self: center;
+  background-color: $jaune-color;
+  margin: 20px 0;
+  align-self: center;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.predicFormButton:hover {
+  cursor: pointer;
+}
+
+.logout {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+// KALEVALA PREDICTION ///////////
+
+.cardsCtn {
+  display: flex;
+  justify-content: center;
+}
+
+.kalevalaTitle {
+  text-align: center;
+}
+
+.kalevalaFuture {
+  text-align: center;
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+}
+
+.kalevalaFuture a {
+  margin: 0 10px;
+  font-size: 20px;
+  padding: 5px 5px;
+  text-decoration: none;
+  background-color: $rouge-color;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.kalevalaDiv {
+  background-color: $jaune-color;
+  padding: 20px;
+}
+
+.event-flip-box {
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  perspective: 1000px;
+  -webkit-perspective: 1000px;
+  width: 450px;
+  margin: 20px;
+}
+
+.event-flip-box-front,
+.event-flip-box-back {
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  min-height: 475px;
+  -ms-transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  -webkit-transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.event-flip-box-front {
+  -ms-transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+  -webkit-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.event-flip-box:hover .event-flip-box-front {
+  -ms-transform: rotateY(-180deg);
+  -webkit-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+  -webkit-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.event-flip-box-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  -ms-transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  -webkit-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.event-flip-box:hover .event-flip-box-back {
+  -ms-transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+  -webkit-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.event-flip-box .inner {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  padding-bottom: 120px;
+  outline: 1px solid transparent;
+  -webkit-perspective: inherit;
+  perspective: inherit;
+  z-index: 2;
+
+  transform: translateY(-50%) translateZ(60px) scale(0.94);
+  -webkit-transform: translateY(-50%) translateZ(60px) scale(0.94);
+  -ms-transform: translateY(-50%) translateZ(60px) scale(0.94);
+  top: 50%;
+}
+
+// .event-flip-box-header {
+//   font-size: 36px;
+// }
+
+.event-flip-box p {
+  font-size: 1.6rem;
+  line-height: 1.5em;
+  font-weight: 700;
+  text-shadow: 0px 0px 7px rgba(0, 0, 0, 1);
+  text-align: center;
+  margin: 1em;
+}
+
+.event-flip-image {
+  width: auto;
+  height: 700px;
+  object-fit: cover;
+  width: 450px;
+  border: #fff solid 2px;
+  filter: blur(4px);
+  filter: brightness(50%);
+}
+
+// KALEVALA WAITING ////////////
+
+.kalevalaWaiting {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.animDiv {
+  animation-duration: 3s;
+  animation-name: spin;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
