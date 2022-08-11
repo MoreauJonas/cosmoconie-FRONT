@@ -85,32 +85,41 @@ function Shop() {
           <h3 className="ShopTitle">Le marché sur des oeufs</h3>
 
           <div className="bandeau">
-            <legend>Filtres des objets:</legend>
+            <legend className="filter-label">Filtres des objets:</legend>
 
             <input
               id="tags"
+              className="filter-box"
               type="checkbox"
               value="survivance"
               name="Survivance"
               onChange={(e) => setFilterRed(e.target.checked)}
             />
-            <label htmlFor="tagssurvivance">Survivance</label>
+            <label className="filter-label" htmlFor="tagssurvivance">
+              Survivance
+            </label>
 
             <input
               type="checkbox"
+              className="filter-box"
               value="quotidien"
               name="Quotidien"
               onChange={(e) => setFilterBlue(e.target.checked)}
             />
-            <label htmlFor="tagsquotidien">Culte</label>
+            <label className="filter-label" htmlFor="tagsquotidien">
+              Culte
+            </label>
 
             <input
               type="checkbox"
+              className="filter-box"
               value="culte"
               name="Culte"
               onChange={(e) => setFilterGreen(e.target.checked)}
             />
-            <label htmlFor="tagsculte">Quotidien</label>
+            <label className="filter-label" htmlFor="tagsculte">
+              Quotidien
+            </label>
             <button
               className="ShopButton"
               type="submit"
