@@ -65,6 +65,7 @@ function CountDown() {
   return (
     <div className="countDown">
       <div className="countDownContainer">
+      <h2>Fin du monde dans </h2>
         <div className="container-segment">
           <div className="segment-title">Heures</div>
           <div className="segment">
