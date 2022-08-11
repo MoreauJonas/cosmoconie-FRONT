@@ -6,7 +6,7 @@ $white-color: #fef9ef;
 .Item {
   background-color: #fef9ef;
   color: black;
-  height: 50vh;
+  height: 60vh;
   margin: 1em;
   width: 20vw;
   display: flex;
@@ -24,11 +24,12 @@ $white-color: #fef9ef;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-height: 30vh;
+    max-height: 40vh;
     text-align: center;
     white-space: wrap;
     text-overflow: ellipsis;
     overflow: hidden;
+    // flex-wrap: wrap;
   }
 
   .ItemTitle {

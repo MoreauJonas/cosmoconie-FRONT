@@ -15,7 +15,7 @@ function Shop() {
   const [postsPerPage] = useState(6);
   const [offset, setOffset] = useState(1);
   const [posts, setAllPosts] = useState([]);
-  const [pageCount, setPageCount] = useState(0);
+  const [pageCount, setPageCount] = useState(1);
   const [object, setObject] = useState(Items);
 
   const checkCreteria = (e) => {
@@ -86,9 +86,12 @@ function Shop() {
       <div className="GrosseDiv">
         <div className="ShopFilter">
           <h3 className="ShopTitle">Le marché sur des oeufs</h3>
-          
-          <a href="/shop" className=""><ShoppingCartIcon />Panier</a>
-        
+
+          <a href="/paiement" className="Panier">
+            <ShoppingCartIcon />
+            Panier
+          </a>
+
           <div className="bandeau">
             <legend className="filter-label">Filtres des objets:</legend>
 
