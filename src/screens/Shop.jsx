@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import Item from "../components/Item";
 import Items from "../assets/data/Items.json";
 import ReactPaginate from "react-paginate";
-
+import Cart from "../components/Cart";
 function Shop() {
   const [items, setItems] = useState(Items);
   const [filterRed, setFilterRed] = useState(false);
@@ -52,6 +52,7 @@ function Shop() {
                 <p>{item.description}</p>
                 <p>Prix: {item.prix}</p>
                 {/* <p>Type d'objet: {item.tag}</p> */}
+                <Cart />
               </div>
             </div>
           </div>
