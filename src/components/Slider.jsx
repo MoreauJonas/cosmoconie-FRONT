@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai'
-import { sliderData } from './Slider-data'
+import { sliderData } from './SliderData'
 
 const Slider = () => {
   const [currentSlide, setCurrenteSlide] = useState(0)
@@ -49,15 +49,15 @@ const Slider = () => {
           >
             {index === currentSlide && (
               <div>
-                <a href='http://localhost:3000/region/4'>
-                  <img className='img-slider' src={slide.image} alt='slide' />
+                <a href='http://localhost:3000/'>
+                  {console.log(slide.image)}
+                  <img className='img-slider' src={require(`../assets/images/${slide.image}`)} alt={slide.heading} />
                 </a>
-                {/* <div className='content-slider'>
+                <div className='content-slider'>
                   <h2>{slide.heading}</h2>
                   <p>{slide.desc}</p>
                   <hr />
-                  <button className='btn-slider'>En savoir plus</button>
-                </div> */}
+                </div>
               </div>
             )}
           </div>

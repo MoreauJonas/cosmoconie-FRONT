@@ -1,12 +1,13 @@
+import PresentationHp from "../components/PresentationHp";
 import Slider from "../components/Slider";
-
-
-const Home = () => {
+function Home() {
   return (
-    <div className="slider">
+    <div>
+      <PresentationHp />
+      <div className="slider">
       <Slider />
     </div>
+    </div>
   );
-};
-
+}
 export default Home;
