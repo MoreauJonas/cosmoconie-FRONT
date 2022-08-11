@@ -1,0 +1,33 @@
+.Pres {
+  img {
+    width: 15%;
+  }
+  .text {
+    display: flex;
+    align-items: center;
+    p {
+      margin: 0 15px;
+      line-height: 30px;
+    }
+  }
+}
+.flex {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.noFlex {
+  display: flex;
+  flex-direction: row;
+}
+.flexT {
+  display: flex;
+  justify-content: center;
+  .Title {
+    border: 7px solid #ffcb77;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    width: 25em;
+    margin: 50px;
+  }
+}
