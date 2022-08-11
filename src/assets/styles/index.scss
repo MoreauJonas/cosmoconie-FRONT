@@ -1,10 +1,13 @@
 // Components //////////
 // @import "./components/Slider";
 @import "./components/presentationHp";
-
+@import "./components/item";
 // Screens //////////
 // @import "./screens/Admin";
 @import "./screens/Home";
+
+// Screens //////////
+// @use "../styles/screens/EventList";
 
 @font-face {
   font-family: "rmegg___";

@@ -1,0 +1,18 @@
+$rouge-color: #fe6d73;
+
+.component-event {
+  img {
+    width: 45vw;
+    height: 45vh;
+    object-fit: contain;
+  }
+
+  .tag {
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    border-radius: 50px;
+    width: 7em;
+    background-color: $rouge-color;
+  }
+}
