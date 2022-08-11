@@ -1,28 +1,31 @@
 import { useRoutes } from "react-router-dom";
-import "./App.css";
+import Home from "./screens/Home";
+import Footer from "./components/Footer";
 import About from "./screens/About";
-
-import Home from './screens/Home';
 import Kalevala from './screens/Kalevala';
 import Navbar from './components/Navbar';
 import Shop from './screens/Shop';
 import EventList from './screens/EventList';
 import CountDown from "./components/CountDown";
+import Paiement from "./screens/Paiement";
+
+import "./App.css";
 
 function App() {
   let element = useRoutes([
     { path: "/", element: <Home /> },
     { path: "/Kalevala", element: <Kalevala /> },
     { path: "/shop", element: <Shop /> },
-    // { path: "/shop/:id", element: <Shop /> },
     { path: "/events", element: <EventList /> },
-    // { path: "/events/:id", element: <Event /> },
     { path: "/about", element: <About /> },
+    { path: "/paiement", element: <Paiement /> },
   ]);
   return <div className="App">
     <Navbar /> 
     <CountDown />
-    {element}</div>;
+    {element}
+    <Footer />
+    </div>;
 }
 
 export default App;
