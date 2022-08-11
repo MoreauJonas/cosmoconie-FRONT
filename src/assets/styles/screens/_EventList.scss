@@ -21,3 +21,8 @@ $white-color: #fef9ef;
     background-color: green;
   }
 }
+.flexObject {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
