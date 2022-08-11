@@ -7,6 +7,7 @@ import Kalevala from './screens/Kalevala';
 import Navbar from './components/Navbar';
 import Shop from './screens/Shop';
 import EventList from './screens/EventList';
+import Paiement from './screens/Paiement';
 
 function App() {
   let element = useRoutes([
@@ -17,6 +18,7 @@ function App() {
     { path: "/events", element: <EventList /> },
     // { path: "/events/:id", element: <Event /> },
     { path: "/about", element: <About /> },
+    {path: "/paiement", element: <Paiement />}
   ]);
   return <div className="App">
     <Navbar /> 

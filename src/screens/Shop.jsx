@@ -3,6 +3,9 @@ import Item from "../components/Item";
 import Items from "../assets/data/Items.json";
 import ReactPaginate from "react-paginate";
 import Cart from "../components/Cart";
+import Badge from "@material-ui/core/Badge";
+import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
+
 function Shop() {
   const [items, setItems] = useState(Items);
   const [filterRed, setFilterRed] = useState(false);
@@ -84,7 +87,9 @@ function Shop() {
       <div className="GrosseDiv">
         <div className="ShopFilter">
           <h3 className="ShopTitle">Le marché sur des oeufs</h3>
-
+          
+          <a href="/shop" className=""><ShoppingCartIcon />Panier</a>
+        
           <div className="bandeau">
             <legend>Filtres des objets:</legend>
 
