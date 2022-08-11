@@ -1,6 +1,7 @@
+$rouge-color: #fe6d73;
 .countDown {
     background-color: #f2f1ed;
-    color: #de4848;
+    color: $rouge-color;
 
 *, *::after, *::before {
     box-sizing: border-box;

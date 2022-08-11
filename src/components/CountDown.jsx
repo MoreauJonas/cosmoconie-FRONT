@@ -1,10 +1,11 @@
 import React from "react";
+import { useEffect } from "react";
 
 function CountDown() {
-  const endOfTheWorld = new Date("2022-09-30 17:30:00");
-  const countToDate = new Date().setHours(new Date().getHours() + 24);
+  useEffect (() => {const endOfTheWorld = new Date("2022-09-30 17:30:00");
+  const countToDate = endOfTheWorld.getTime();
   let previousTimeBetweenDates;
-  console.log(countToDate);
+  console.log(countToDate, endOfTheWorld.getTime(), );
   setInterval(() => {
     const currentDate = new Date();
     const timeBetweenDates = Math.ceil((countToDate - currentDate) / 1000);
@@ -16,8 +17,11 @@ function CountDown() {
   function flipAllCards(time) {
     const seconds = time % 60;
     const minutes = Math.floor(time / 60) % 60;
-    const hours = Math.floor(time / 3600);
+    const hours = Math.floor(time / 3600) % 24;
+    const days = Math.floor(time / 86400)
 
+    flip(document.querySelector("[data-days-tens]"), Math.floor(days / 10));
+    flip(document.querySelector("[data-days-ones]"), days % 10);
     flip(document.querySelector("[data-hours-tens]"), Math.floor(hours / 10));
     flip(document.querySelector("[data-hours-ones]"), hours % 10);
     flip(
@@ -60,12 +64,25 @@ function CountDown() {
       bottomFlip.remove();
     });
     flipCard.append(topFlip, bottomFlip);
-  }
+  }},[])
 
   return (
     <div className="countDown">
       <div className="countDownContainer">
       <h2>Fin du monde dans </h2>
+      <div className="container-segment">
+          <div className="segment-title">Jours</div>
+          <div className="segment">
+            <div className="flip-card" data-days-tens>
+              <div className="top">0</div>
+              <div className="bottom">0</div>
+            </div>
+            <div className="flip-card" data-days-ones>
+              <div className="top">0</div>
+              <div className="bottom">0</div>
+            </div>
+          </div>
+        </div>
         <div className="container-segment">
           <div className="segment-title">Heures</div>
           <div className="segment">
