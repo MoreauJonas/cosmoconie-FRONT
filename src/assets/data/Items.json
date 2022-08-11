@@ -52,7 +52,7 @@
 		"image": "boutique10.jpg",
 		"description": "Ces coquilles en silicone de 9,5 centimètres de diamètre permettent de réaliser les œufs pochés simplement. Les œufs en effet ne trempent plus dans l’eau, donc ne se dispersent plus. Ces deux poches résistent à de très fortes températures et passent au lave-vaisselle. On peut aussi les utiliser au four traditionnel, au four à micro-ondes et au congélateur.",
 		"prix": "3 saucisses",
-		"tag": "Quotidien"
+		"tag": "quotidien"
 	},
 	{
 		"id": 11,
@@ -60,7 +60,7 @@
 		"image": "boutique11.jpg",
 		"description": "Tu ne mourras pas de faim grâce à l’éco-coquille!! Un coton de l’eau et la magie opère.",
 		"prix": "Une statuette de Gladeulfeurah",
-		"tag": "Survivance"
+		"tag": "survivance"
 	},
 	{
 		"id": 12,
@@ -68,7 +68,7 @@
 		"image": "boutique12.webp",
 		"description": "L’objet de tous les cultes des années 90 est de nouveau parmi nous, cousin germain de notre grand Calimecon du côté nordiste. Avec son regard d’une intelligence sereine votre vie sera plus douce",
 		"prix": "6 paquets de Nuts",
-		"tag": "Culte"
+		"tag": "culte"
 	},
 	{
 		"id": 13,
@@ -76,7 +76,7 @@
 		"image": "boutique13.jpeg",
 		"description": "Très précieux. Cet ustensile vous permettra d’utiliser cette précieuse partie de nos œufs sacrés en toute simplicité. Vos cheveux ne perdront pas de leur éclat.",
 		"prix": "Une laitue, 1dl de riz et 3 pains trempés dans l’eau",
-		"tag": "Quotidien"
+		"tag": "quotidien"
 	},
 	{
 		"id": 14,
@@ -84,7 +84,7 @@
 		"image": "boutique14.png",
 		"description": "Les œufs sont un super aliment exceptionnel et la source de vitamines la moins chère sur le marché. Du coup : apprendre à stocker les œufs est aussi essentiel que de stocker de la farine ou du riz à des fins d’urgence à long terme ou en cas de catastrophe. Compact et peu lourd, ce lyophilsateur conservera nos œufs sacrés jusqu’à 10 à 25 ans. Mais il faudra vous rebrancher au réseau électrique et donc à la société pour pouvoir l’utiliser. Notre gourou vous pardonnera au confessionnal.",
 		"prix": "3 poulets et 24 poulettes",
-		"tag": "Survivance"
+		"tag": "survivance"
 	},
 	{
 		"id": 15,
@@ -92,7 +92,7 @@
 		"image": "boutique15.jpeg",
 		"description": "La vie éternelle dépend de la vie menée sur la terre, et que seule une vie ascétique peut sauvegarder la pureté de l'âme de l'impureté du corps. Cet ouvrage exceptionnel vous mènera à vous accouder au bar avec notre tout puissant Gourou",
 		"prix": "5 Pléiades complètes",
-		"tag": "Culte"
+		"tag": "culte"
 	},
 	{
 		"id": 16,
