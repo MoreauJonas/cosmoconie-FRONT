@@ -28,11 +28,13 @@ function Event({ nom, image, description, date, tag, lieu }) {
         <div className="card">
           <div className="card-header">
             <div className="profile">
-              <span className="letter">Coucou</span>
+              <span className="letter">{tag}</span>
             </div>
             <div className="card-title-group">
               <h5 className="card-title">{nom}</h5>
-              <div className="card-date">Le {date}</div>
+              <div className="card-date">
+                Le {date} à {lieu}
+              </div>
             </div>
           </div>
           <img
@@ -56,11 +58,13 @@ function Event({ nom, image, description, date, tag, lieu }) {
             <div className="cardM">
               <div className="card-header">
                 <div className="profile">
-                  <span className="letter">Coucou</span>
+                  <span className="letter">{tag}</span>
                 </div>
                 <div className="card-title-group">
                   <h5 className="card-title">{nom}</h5>
-                  <div className="card-date">Le {date}</div>
+                  <div className="card-date">
+                    Le {date} à {lieu}
+                  </div>
                 </div>
               </div>
               <img
