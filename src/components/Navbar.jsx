@@ -13,7 +13,7 @@ const Navbar = () => {
         className={({ isActive }) => (isActive ? "active" : undefined)}
       >
         <div>
-          <Icon.Feather size={40} />
+          <Icon.Feather size={28} />
           Kalevala
         </div>
       </NavLink>
@@ -22,7 +22,7 @@ const Navbar = () => {
         className={({ isActive }) => (isActive ? "active" : undefined)}
       >
         <div>
-          <Icon.ShoppingBag size={40} />
+          <Icon.ShoppingBag size={28} />
           Shopping
         </div>
       </NavLink>
@@ -31,7 +31,7 @@ const Navbar = () => {
         className={({ isActive }) => (isActive ? "active" : undefined)}
       >
         <div>
-          <Icon.Globe size={40} />
+          <Icon.Calendar size={28} />
           Events
         </div>
       </NavLink>
@@ -40,7 +40,7 @@ const Navbar = () => {
         className={({ isActive }) => (isActive ? "active" : undefined)}
       >
         <div>
-          <Icon.Smile size={40} />
+          <Icon.Info size={28} />
           About us
         </div>
       </NavLink>

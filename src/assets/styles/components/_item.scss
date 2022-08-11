@@ -1,3 +1,8 @@
+$jaune-color: #ffcb77; //bouton
+$blue-color: rgb(68, 144, 161);
+$rouge-color: #fe6d73; //compteur
+$white-color: #fef9ef;
+
 .Item {
   background-color: #fef9ef;
   color: black;
@@ -6,10 +11,11 @@
   width: 20vw;
   display: flex;
   flex-direction: column;
-  border: solid 1px white;
+  border: solid 3px $white-color;
+  border-radius: 5px;
 
   .ItemImage {
-    border-top: solid 1px white;
+    border-top: solid 3px $white-color;
     border-bottom: solid 1px white;
     height: 20vh;
     object-fit: cover;
@@ -22,17 +28,15 @@
     text-align: center;
     white-space: wrap;
     text-overflow: ellipsis;
-    overflow: hidden; 
-    
-   
+    overflow: hidden;
   }
 
   .ItemTitle {
-    background-color: #464141;
     color: white;
     height: 2em;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: $blue-color;
   }
 }
