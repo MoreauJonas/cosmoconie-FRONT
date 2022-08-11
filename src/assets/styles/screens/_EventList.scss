@@ -1,0 +1,23 @@
+$rouge-color: #fe6d73;
+$white-color: #fef9ef;
+
+.tagFilter {
+  display: flex;
+
+  .buttonFilter {
+    border: 1px solid black;
+    justify-content: center;
+    border-radius: 50px;
+    width: 7em;
+    color: $white-color;
+  }
+  .red {
+    background-color: $rouge-color;
+  }
+  .blue {
+    background-color: blue;
+  }
+  .green {
+    background-color: green;
+  }
+}
