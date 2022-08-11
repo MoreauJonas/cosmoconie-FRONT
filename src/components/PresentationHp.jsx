@@ -6,9 +6,8 @@ import paysOiseaux from "../assets/images/paysOiseaux.jpg";
 const PresentationHp = () => {
   return (
     <div className="Pres">
-      <div className="flexT">
-        <h1 className="Title">Au commencement...</h1>
-      </div>
+      <div className="flexT L"></div>
+      <h1 className="Title">Au commencement...</h1>
       <div className="comIntro flex">
         <img src={commencement} alt="Commencement" />
         <div className="text">
@@ -33,7 +32,7 @@ const PresentationHp = () => {
           </p>
         </div>
       </div>
-      <div className="flexT">
+      <div className="flexT R">
         <h1 className="Title">Notre Grand Calimecon</h1>
       </div>
       <div className="gourouP noFlex">
@@ -51,7 +50,7 @@ const PresentationHp = () => {
           </p>
         </div>
       </div>
-      <div className="flexT">
+      <div className="flexT L">
         <h1 className="Title">Mes Chers Cosmocons...</h1>
       </div>
       <div className="theEnd flex">
@@ -73,7 +72,7 @@ const PresentationHp = () => {
           </p>
         </div>
       </div>
-      <div className="flexT">
+      <div className="flexT R">
         <h1 className="Title">
           Mes très chers Cosmocons, ceci n’est pas la fin !
         </h1>
