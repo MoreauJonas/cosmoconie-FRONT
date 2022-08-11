@@ -1,0 +1,56 @@
+.aboutTitle {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+}
+.aboutResum {
+  text-align: center;
+  padding: 50px;
+  font-size: 1.5rem;
+
+  .aboutMoney {
+    font-style: italic;
+    font-size: 0.5rem;
+  }
+}
+
+.aboutGroup {
+  display: flex;
+  font-size: 1.5rem;
+  justify-content: center;
+}
+
+.aboutContainer {
+  display: flex;
+  justify-content: space-evenly;
+  border: 3px solid #fef9ef;
+  box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.284);
+  border-radius: 5px;
+  margin: 40px;
+  padding: 15px;
+  font-size: medium;
+  size: 50%;
+  padding-bottom: 100px;
+
+  .aboutDescr {
+    color: #ffcb77;
+    font-weight: bold;
+    font-size: 1.5rem;
+    .aboutFront {
+      font-size: 1.5rem;
+      font-style: italic;
+      color: #fef9ef;
+      font-weight: lighter;
+    }
+  }
+
+  .aboutImage {
+    justify-content: flex-end;
+    width: 30vw;
+    height: 30vw;
+    border-radius: 5px;
+    padding: 20px;
+    margin: auto;
+    object-fit: contain;
+  }
+}
