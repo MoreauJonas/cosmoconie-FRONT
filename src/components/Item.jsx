@@ -1,5 +1,4 @@
 import React from "react";
-import "../assets/styles/components/_item.scss";
 
 function Item({ nom, image, description, prix, tag }) {
   return (
@@ -7,12 +6,16 @@ function Item({ nom, image, description, prix, tag }) {
       <div className="ItemTitle">
         <h3>{nom}</h3>
       </div>
-      <div className="ItemImage">
-        <img src={require(`../assets/images/shop/${image}`)} alt={nom} />
-      </div>
+
+      <img
+        className="ItemImage"
+        src={require(`../assets/images/shop/${image}`)}
+        alt={nom}
+      />
+
       <div className="ItemDescription">
         <p>{description}</p>
-        <p>{prix}</p>
+        <p>Prix: {prix}</p>
         <p>Type d'objet: {tag}</p>
       </div>
     </div>
