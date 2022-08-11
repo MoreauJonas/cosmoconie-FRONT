@@ -66,7 +66,7 @@ function EventList() {
     getAllPosts();
   }, [offset]);
   return (
-    <>
+    <div className="tout">
       <ReactPaginate
         previousLabel={"previous"}
         nextLabel={"next"}
@@ -124,7 +124,7 @@ function EventList() {
           {/* Using React Paginate */}
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
