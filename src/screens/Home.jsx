@@ -1,12 +1,13 @@
 import PresentationHp from "../components/PresentationHp";
 import Slider from "../components/Slider";
+
 function Home() {
   return (
-    <div>
+    <div className="Home">
       <PresentationHp />
       <div className="slider">
-      <Slider />
-    </div>
+        <Slider />
+      </div>
     </div>
   );
 }
