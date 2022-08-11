@@ -1,0 +1,16 @@
+import Navbar from "../components/Navbar";
+import PresentationHp from "../components/PresentationHp";
+import Slider from "../components/Slider";
+
+function Home() {
+  return (
+    <div className="Home">
+      <Navbar />
+      <PresentationHp />
+      <div className="slider">
+        <Slider />
+      </div>
+    </div>
+  );
+}
+export default Home;

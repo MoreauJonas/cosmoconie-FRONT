@@ -1,8 +1,17 @@
 // Components //////////
 @import "./components/navbar";
+@import "./components/Slider";
+@import "./components/presentationHp";
+@import "./components/item";
+@import "./components/event";
 
 // Screens //////////
-@import "./screens/home";
+@import "./screens/_Kalevala.scss";
+@import "./screens/Home";
+@import "./screens/EventList";
+@import "./screens/Shop";
+
+// @use "../styles/screens/EventList";
 
 @font-face {
   font-family: "rmegg___";
