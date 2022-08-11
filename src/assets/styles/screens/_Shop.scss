@@ -1,87 +1,77 @@
-// .test {
-//   display: flex;
-//   flex-direction: column;
-// }
+.GrosseDiv {
+  display: flex;
+  height: auto;
+}
+.bandeau {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+}
+.ShopButton {
+  margin-top: 4em;
+  margin-bottom: 4em;
+  height: 3em;
+  width:80%;
+  margin-left: 2.5em;
+  box-shadow: 2px 2px 2px 2px black;
+  font-weight: bolder;
+}
+.ShopTitle {
+  font-weight: bolder;
+  text-align: center;
+}
+
+.ShopFilter {
+  background-color: #464141;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  width: 20vw;
+  line-height: 2em;
+  
+}
+
 .main-app {
-  // display: flex;
-  // flex-direction: column;
-  margin: 2% 10%;
-  border: 1px ridge #464141;
-  padding: 5%;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 20px;
+  display: flex;
+  border: 2px ridge #464141;
+  padding: 2%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1.2rem;
   color: #464141;
- }
+  flex-wrap: wrap;
+  justify-content: center;
   
- .container {
+}
+
+.container {
   border-bottom: #fff 2px ridge;
- }
-  
- .pagination {
-  
+  display: flex;
+}
+
+.pagination {
   margin-top: 45px;
   margin-left: -40px;
   display: flex;
   list-style: none;
   outline: none;
- }
-  
- .pagination>.active>a {
+  justify-content: center;
+}
+
+.pagination > .active > a {
   background-color: #47ccde;
   color: #fff;
-  
- }
-  
- .pagination>li>a {
+}
+
+.pagination > li > a {
   border: 1px solid #47ccde;
   padding: 5px 10px;
   outline: none;
   cursor: pointer;
-  
- }
-  
- .pagination>li>a, .pagination>li>span {
+}
+
+.pagination > li > a,
+.pagination > li > span {
   color: #47ccde;
   background-color: azure;
-  
- }
- .ShopTitle {
-  font-size: 3rem;
-  font-weight: bolder;
-text-align: center;
-align-content: center;}
-.Shop {
-  display: flex;
-  flex-direction: row;
-  width:100vw;
-  height:100vh;
-  flex-wrap: wrap;
-  justify-content: center;
-  text-align: center;
-  .Item {
-    background-color: #fef9ef;
-    color:black;
-    height: 60vh;
-    margin:1em;
-    width: 20vw;
-    display: flex;
-    flex-direction: column;
-    border: solid 1px white;
-    .ItemImage {
-      border-top: solid 1px white;
-      border-bottom: solid 1px white;
-      width: 20vw;
-      height: 20vh;
-      object-fit: cover;
-    }
-    .ItemDescription {
-      max-width: 20vw;
-      object-fit: contain;
-      flex-wrap: wrap;
-    }
-    .ItemTitle {
-      background-color: #ffcb77;
-      color:black;
-    }
-  }
 }
