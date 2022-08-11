@@ -1,11 +1,8 @@
 // Components //////////
-// @import "./components/Slider";
-@import "./components/header";
 @import "./components/navbar";
 
 // Screens //////////
-// @import "./screens/Admin";
-@import "./components/home";
+@import "./screens/home";
 
 @font-face {
   font-family: "rmegg___";
@@ -14,7 +11,7 @@
 
 $white-color: #fef9ef;
 $jaune-color: #ffcb77; //bouton
-$blue-color: rgb(68, 144, 161);
+$blue-color: #4490a1;
 $rouge-color: #fe6d73; //compteur
 
 body {
