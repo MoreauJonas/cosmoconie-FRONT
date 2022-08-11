@@ -38,10 +38,16 @@ $white-color: #fef9ef;
   text-align: center;
   display: flex;
   flex-direction: column;
+  align-items: center;
   font-size: 2rem;
   width: 20vw;
   line-height: 2em;
   border: none;
+
+  a {
+    text-decoration: none;
+    color: #fe6d73;
+  }
 }
 
 .main-app {

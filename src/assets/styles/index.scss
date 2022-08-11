@@ -1,27 +1,26 @@
 // Components //////////
+@import "./components/navbar";
 @import "./components/Slider";
 @import "./components/presentationHp";
 @import "./components/item";
-@import "./components/_footer.scss";
+@import "./components/footer";
+@import "./components/event";
 // Screens //////////
-@import "./screens/_Kalevala.scss";
-// @import "./screens/Admin";
+@import "./screens/Kalevala";
 @import "./screens/Home";
-
-// Screens //////////
+@import "./screens/EventList";
 @import "./screens/Shop";
-// @use "../styles/screens/EventList";
+@import "./screens/about";
+@import "./screens/Paiement";
 
 @font-face {
   font-family: "rmegg___";
   src: url("../../fonts/rmegg___.ttf");
-  // font-family: "Eggy_Bunny";
-  // src: url("../../fonts/Eggy_Bunny.ttf");
 }
 
 $white-color: #fef9ef;
 $jaune-color: #ffcb77; //bouton
-$blue-color: rgb(68, 144, 161);
+$blue-color: #4490a1;
 $rouge-color: #fe6d73; //compteur
 
 body {
@@ -39,7 +38,6 @@ body {
 
 h6 {
   font-family: rmegg___;
-  // font-family: Eggy_Bunny;
   font-size: 5rem;
 }
 code {

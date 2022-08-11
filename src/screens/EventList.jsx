@@ -2,6 +2,7 @@ import evenements from "../assets/data/events.json";
 import { useState } from "react";
 import React from "react";
 import Event from "../components/Event";
+import "../assets/styles/screens/_EventList.scss";
 
 function EventList() {
   const [eventList, setEventList] = useState(evenements);
@@ -59,11 +60,13 @@ function EventList() {
             </button>
           </fieldset>
         </div>
-        {eventList.map((eventList) => (
-          <div key={eventList.id}>
-            <Event {...eventList} />
-          </div>
-        ))}
+        <div className="flexObject">
+          {eventList.map((eventList) => (
+            <div key={eventList.id}>
+              <Event {...eventList} />
+            </div>
+          ))}
+        </div>
       </div>
     </>
   );
