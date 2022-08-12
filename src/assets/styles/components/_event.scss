@@ -93,8 +93,8 @@ $jaune-color: #ffcb77;
 .cardM {
   background-color: white;
   color: #272727;
-  max-width: 41vw;
-  height: 45vh;
+  width: auto;
+  height: auto;
   padding: 20px;
   margin: 10px;
   border: 0px;
@@ -168,27 +168,6 @@ $jaune-color: #ffcb77;
   }
 }
 
-// @media screen and (max-width: 1560px) {
-//   .card {
-//     background-color: white;
-//     color: #272727;
-//     max-width: 41vw;
-//     height: 45vh;
-//     padding: 20px;
-//     margin: 10px;
-//     border-radius: 10px;
-//     border: 0px;
-//     border-color: tomato;
-//     border-style: solid;
-//     transition: 200ms;
-
-//     img {
-//       width: 40vw;
-//       height: 27vh;
-//       object-fit: contain;
-//     }
-//   }
-// }
 .descri {
   padding-top: 20px;
   margin-top: 0;
@@ -199,4 +178,27 @@ $jaune-color: #ffcb77;
 }
 .css-1gkse3u {
   border-radius: 5px;
+}
+
+@media screen and (max-width: 1560px) {
+  .card {
+    border-radius: 5px;
+    background-color: white;
+    color: #272727;
+
+    width: auto;
+    height: auto;
+    padding: 20px;
+    margin: 10px;
+    border: 0px;
+    border-color: tomato;
+    border-style: solid;
+    transition: 200ms;
+  }
+  .card .card-title {
+    flex: 0.5 1;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
 }
